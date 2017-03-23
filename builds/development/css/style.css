@@ -14,13 +14,7 @@ h1,h2,h3,h4,h5,h6 {
 img {
 	max-width: 200px;
 }
-.page {
-	padding: 50px 0;
-}
-.page h2{
-	text-align: center;
-	margin-bottom: 30px;
-}
+
 /** Header Nav **/
 header .navbar {
 	padding: 30px 0;
@@ -45,6 +39,53 @@ header .navbar-default .navbar-nav .active a {
 }
 header .navbar-default .navbar-nav .active a:hover {
 	background: transparent;
+}
+/** Navbar Brand **/
+header .navbar-brand {
+	background: url(../images/wisdompetlogo.svg);
+	background-repeat: no-repeat;
+	background-position: 15px 0;
+	height: auto;
+}
+header .navbar-brand h1{
+	color: white;
+	margin:0;
+	font-size: 1.8em;
+	font-weight: 400;
+	padding-left: 105px;
+}
+
+header .navbar-brand span.subhead {
+	display: block;
+	font-family: "Katibeh", sans-serif;
+	font-size: .6em;
+	font-weight: 100;
+}
+/** Navbar Toggle **/
+header .navbar-toggle {
+	background-color: #279182;
+}
+header .navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}
+@media only screen and (max-width: 768px) {
+	header .navbar-collapse {
+		background-color: rgba(0,0,0,.5);
+	}
+}
+/** Page **/
+.page {
+	padding: 50px 0;
+}
+.page h2{
+	text-align: center;
+	margin-bottom: 30px;
+}
+/** Page About**/
+#about{
+	background-color: #E4D29D;
+	background-image: linear-gradient(to bottom, #EEF08A, #819A2D);
+	border-top: 20px solid rgba(238,200,86,.5);
 }
 /** Footer Nav **/
 footer .navbar-default {
