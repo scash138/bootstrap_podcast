@@ -2,8 +2,40 @@
 $(function(){
   'use strict';
 
-  var topoffset = 50;
+  var slideQuantity = $('#home .item').length;
+  var wHeight = $(window).height();
 
+  $('.fullheight').css('height', wHeight);
+  //carousel indicators //
+  for (var i = 0; i < slideQuantity; i++) {
+    var insertText = '<li data-target="#home" data-slide-to="' + i + '"></li>';
+    $('#home ol').append(insertText);
+  }
+
+  $('.carousel').carousel({
+    interval: false
+  });
+  //adjust hieght of .fullheight elements on window resize
+  $(window).resize(function(event) {
+    var wHeight = $(window).height();
+    $('.fullheight').css('height', wHeight);
+  });
+});
+
+$(function(){
+  'use strict';
+
+  $('#home .item img').each(function() {
+    var imgSource = $(this).attr('src');
+    $(this).parent().css({'background-image':'url(' + imgSource + ')'});
+    $(this).remove();
+  });
+});
+
+$(function(){
+  'use strict';
+  
+  var topoffset = 50;
   //Activate scrollspy
   $('body').scrollspy({
     target: 'header .navbar',
@@ -28,26 +60,20 @@ $(function(){
     }
   })
 
-  $(function() {
-    $('a[href*="#"]:not([href="#"])').click(function() {
-      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-          $('html, body').animate({
-            scrollTop: target.offset().top - topoffset + 2
-          }, 500);
-          return false;
-        }
-      }
-    });
-  });
-
-  $('.carousel').carousel({
-    interval: false
-  });
-
-
+  $('.navbar a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') ===
+      this.pathname.replace(/^\//,'') &&
+      location.hostname === this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top-topoffset+2
+        }, 500);
+        return false;
+      } //target.length
+    } //click function
+  }); //smooth scrolling
 });
 
 },{}]},{},[1])
