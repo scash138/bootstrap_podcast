@@ -1,0 +1,51 @@
+{
+  "podcasts":[{
+      "episode": "1",
+      "date" : "01/01/2017",
+      "guest": "Test Guest",
+      "band": "Test Band",
+      "description": "This is a test description",
+      "image": "imageURL"
+    },
+    {
+      "episode": "2",
+      "date" : "02/01/2017",
+      "guest": "Test Guest 2",
+      "band": "Test Band 2",
+      "description": "This is a test description",
+      "image": "imageURL"
+    },
+    {
+      "episode": "3",
+      "date" : "02/01/2017",
+      "guest": "Test Guest 2",
+      "band": "Test Band 2",
+      "description": "This is a test description",
+      "image": "imageURL"
+    },
+    {
+      "episode": "4",
+      "date" : "02/01/2017",
+      "guest": "Test Guest 2",
+      "band": "Test Band 2",
+      "description": "This is a test description",
+      "image": "imageURL"
+    },
+    {
+      "episode": "5",
+      "date" : "02/01/2017",
+      "guest": "Test Guest 2",
+      "band": "Test Band 2",
+      "description": "This is a test description",
+      "image": "imageURL"
+    },
+    {
+      "episode": "6",
+      "date" : "02/01/2017",
+      "guest": "Test Guest 2",
+      "band": "Test Band 2",
+      "description": "This is a test description",
+      "image": "imageURL"
+    }
+  ]
+}
