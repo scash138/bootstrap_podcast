@@ -4,48 +4,48 @@
       "date" : "01/01/2017",
       "guest": "Test Guest",
       "band": "Test Band",
-      "description": "This is a test description",
-      "image": "imageURL"
+      "description": "Dr. Winthrop is the guardian of Missy, a three-year old Llaso mix, who he adopted at the shelter. Dr. Winthrop is passionate about spay and neuter and pet adoption, and works tireless hours outside the clinic, performing free spay and neuter surgeries for the shelter.",
+      "image": "images/1.jpg"
     },
     {
       "episode": "2",
       "date" : "02/01/2017",
       "guest": "Test Guest 2",
       "band": "Test Band 2",
-      "description": "This is a test description",
-      "image": "imageURL"
+      "description": "Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
+      "image": "images/1.jpg"
     },
     {
       "episode": "3",
-      "date" : "02/01/2017",
-      "guest": "Test Guest 2",
-      "band": "Test Band 2",
-      "description": "This is a test description",
-      "image": "imageURL"
+      "date" : "03/01/2017",
+      "guest": "Test Guest 3",
+      "band": "Test Band 3",
+      "description": "Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
+      "image": "images/3.jpg"
     },
     {
       "episode": "4",
-      "date" : "02/01/2017",
-      "guest": "Test Guest 2",
-      "band": "Test Band 2",
-      "description": "This is a test description",
-      "image": "imageURL"
+      "date" : "04/01/2017",
+      "guest": "Test Guest 4",
+      "band": "Test Band 4",
+      "description": "Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
+      "image": "images/4.jpg"
     },
     {
       "episode": "5",
-      "date" : "02/01/2017",
-      "guest": "Test Guest 2",
-      "band": "Test Band 2",
-      "description": "This is a test description",
-      "image": "imageURL"
+      "date" : "05/01/2017",
+      "guest": "Test Guest 5",
+      "band": "Test Band 5",
+      "description": "Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
+      "image": "images/5.jpg"
     },
     {
       "episode": "6",
-      "date" : "02/01/2017",
-      "guest": "Test Guest 2",
-      "band": "Test Band 2",
-      "description": "This is a test description",
-      "image": "imageURL"
+      "date" : "06/01/2017",
+      "guest": "Test Guest 6",
+      "band": "Test Band 6",
+      "description": "Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
+      "image": "images/6.jpg"
     }
   ]
 }

@@ -1,10 +1,21 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 $(function(){
   $.getJSON('js/podcasts.json', function(data) {
-  console.log( "success" );
+    var podcastData = $.each(data.podcasts, function(index, el) {
+    });
+    $.each($('#podcast .guest'),function(index, el) {
+      $('h3', this).text(podcastData[index].guest);
+      $('h4', this).text('Episode #' + podcastData[index].episode + ' - ' + podcastData[index].date);
+      if (podcastData[index].description.length > 200) {
+        $('p', this).text('over 200 characters');
+      } else {
+        $('p', this).text(podcastData[index].description);
+      }
+      $('img', this).attr('src',podcastData[index].image);
+    });
 })
   .done(function(data) {
-    console.log( data.podcasts[0].band);
+    // console.log( data.podcasts[0].band);
   })
   .fail(function() {
     console.log( "error" );
