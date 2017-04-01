@@ -5,21 +5,15 @@ body {
 	font-weight: 400;
 	font-size: 2em;
 	position: relative;
-	background-color: rgb(20,20,20);
-	color: rgb(153, 153, 153);
-
 }
 h1,h2,h3,h4,h5,h6 {
 	font-family: "Crimson Text", sans-serif;
 	font-weight: 600;
 	margin: 0;
 }
-
-hr {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
-}
+/*img {
+	max-width: 200px;
+}*/
 
 /** Header Nav **/
 header .navbar {
@@ -79,7 +73,7 @@ header .navbar-brand span.subhead {
 }
 /** Navbar Toggle **/
 header .navbar-toggle {
-	background-color: black;
+	background-color: #279182;
 }
 header .navbar-default .navbar-toggle .icon-bar {
 	background-color: white;
@@ -87,9 +81,6 @@ header .navbar-default .navbar-toggle .icon-bar {
 @media only screen and (max-width: 768px) {
 	header .navbar-collapse {
 		background-color: rgba(0,0,0,.5);
-	}
-	header .navbar-brand span.subhead {
-		display: none;
 	}
 }
 /** nav inbody **/
@@ -162,9 +153,9 @@ header .inbody .navbar-brand span.subhead {
 }
 /** Page -- About**/
 #about{
-	/*background-color: #E4D29D;
+	background-color: #E4D29D;
 	background-image: linear-gradient(to bottom, #EEF08A, #819A2D);
-	border-top: 20px solid rgba(238,200,86,.5);*/
+	border-top: 20px solid rgba(238,200,86,.5);
 }
 /** Page -- Services**/
 .service {
@@ -190,8 +181,8 @@ and (max-width: 768px) {
 }
 /** Page -- Podcast**/
 #podcast {
-	/*background-color: #E4D29D;*/
-	/*background-image: linear-gradient(to bottom, #E4D29D, #CDAE50);*/
+	background-color: #E4D29D;
+	background-image: linear-gradient(to bottom, #E4D29D, #CDAE50);
 }
 .guest {
 	margin: 10px 0;
@@ -207,29 +198,6 @@ and (max-width: 768px) {
 }
 .guest img {
 	width: 100%;
-}
-/*.guest a {
-	position: relative;
-	display: inline-block;
-}
-.guest a::before{
-	content: "";
-	position: absolute;
-	top: 0;
-	width: 100px;
-	height: 100px;
-	z-index: 100;
-	background: transparent url(../images/play.png) center center no-repeat;
-	pointer-events: none;
-}*/
-@media only screen and (max-width: 768px) {
-	h3, h4 {
-		text-align: center;
-		font-weight: bold;
-	}
-	.info {
-		margin-top: 10px;
-	}
 }
 /** Page -- Testimonials**/
 #testimonials {
@@ -321,7 +289,7 @@ and (max-width: 768px) {
 }
 /** Footer **/
 footer {
-	/*background:#586D74;*/
+	background:#586D74;
 	color: white;
 	font-size: .8em;
 	padding: 20px 0 40px 0;

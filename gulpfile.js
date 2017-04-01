@@ -65,6 +65,7 @@ gulp.task('watch', function() {
   gulp.watch(htmlSources, ['html']);
   gulp.watch(cssSources, ['css']);
   gulp.watch(jsonSources, ['json']);
+  gulp.watch(imageSources, ['images']);
 });
 
 gulp.task('connect', function() {

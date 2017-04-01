@@ -11,6 +11,7 @@ $(function(){
         $('p', this).text(podcastData[index].description);
       }
       $('img', this).attr('src',podcastData[index].image);
+      $('.photo a', this).attr('href',podcastData[index].audiofile)
     });
 })
   .done(function(data) {
