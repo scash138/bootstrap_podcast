@@ -31,29 +31,24 @@ $(function(){
   'use strict';
 
   var slideQuantity = $('#home .item').length;
-  var wHeight = $(window).height();
+  var wHeight = '500px';
 
   $('.fullheight').css('height', wHeight);
   //carousel indicators //
   for (var i = 0; i < slideQuantity; i++) {
-    var insertText = '<li data-target="#home" data-slide-to="' + i + '"></li>';
+    var insertText = '<li data-target="#main-carousel" data-slide-to="' + i + '"></li>';
     $('#home ol').append(insertText);
   }
 
   $('.carousel').carousel({
-    interval: false
-  });
-  //adjust hieght of .fullheight elements on window resize
-  $(window).resize(function(event) {
-    var wHeight = $(window).height();
-    $('.fullheight').css('height', wHeight);
+    interval: 5000
   });
 });
 
 $(function(){
   'use strict';
 
-  $('#home .item img').each(function() {
+  $('#main-carousel .item img').each(function() {
     var imgSource = $(this).attr('src');
     $(this).parent().css({'background-image':'url(' + imgSource + ')'});
     $(this).remove();
@@ -62,7 +57,7 @@ $(function(){
 
 $(function(){
   'use strict';
-  
+
   var topoffset = 50;
   //Activate scrollspy
   $('body').scrollspy({

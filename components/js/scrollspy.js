@@ -1,6 +1,6 @@
 $(function(){
   'use strict';
-  
+
   var topoffset = 50;
   //Activate scrollspy
   $('body').scrollspy({
