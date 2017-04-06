@@ -11,18 +11,20 @@ $(function(){
       } else {
         $('p', this).text(podcastData[index].description);
       }
-      $('img', this).attr('src',podcastData[index].image);
-      $('.photo a', this).attr('href',podcastData[index].audiofile)
+      $('.photo img', this).addClass('img-circle');
+      $('.photo img', this).attr('src',podcastData[index].image);
+      $('.photo img', this).attr('alt',podcastData[index].alt);
+      $('.photo a', this).attr('href',podcastData[index].audiofile);
     });
 })
   .done(function(data) {
     // console.log( data.podcasts[0].band);
   })
   .fail(function() {
-    console.log( "error" );
+
   })
   .always(function() {
-    console.log( "complete" );
+
   });
 
 });

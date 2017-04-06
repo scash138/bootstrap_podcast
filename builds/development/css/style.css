@@ -39,6 +39,9 @@ hr {
   background-image:url(../images/cover2.jpg);
   background-size:cover;
 }
+a {
+	color: #fff;
+}
 
 .wide img {
   width:100%;
@@ -227,6 +230,9 @@ and (max-width: 768px) {
 #podcast {
 	/*background-color: #E4D29D;*/
 	/*background-image: linear-gradient(to bottom, #E4D29D, #CDAE50);*/
+}
+#podcast .container.searchbox {
+	margin-bottom: 25px;
 }
 .guest {
 	margin: 10px 0;
