@@ -234,6 +234,12 @@ and (max-width: 768px) {
 #podcast .container.searchbox {
 	margin-bottom: 25px;
 }
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
 .guest {
 	margin: 10px 0;
 }

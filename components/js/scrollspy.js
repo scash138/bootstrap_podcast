@@ -18,7 +18,6 @@ $(function(){
 
   $('.navbar-fixed-top').on('activate.bs.scrollspy', function(){
     var hash = $(this).find('li.active a').attr('href');
-
     if(hash !== '#home'){
       $('header nav').addClass('inbody');
     } else {
