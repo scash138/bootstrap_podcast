@@ -73,7 +73,7 @@ $(function(){
           $('.photo img', this).removeClass('img-circle');
           $('.photo img', this).removeAttr('src');
           $('.photo img', this).removeAttr('alt');
-          $('.photo a', this).remove();
+          $('.photo a', this).hide();
           lbound +=1;
         } else {
           $('h3', this).text(podcastData[lbound].guest);
@@ -83,6 +83,7 @@ $(function(){
           $('.photo img', this).attr('src',podcastData[lbound].image);
           $('.photo img', this).attr('alt',podcastData[lbound].alt);
           $('.photo a', this).attr('href',podcastData[lbound].audiofile);
+          $('.photo a', this).show();
           lbound +=1;
         }
 
