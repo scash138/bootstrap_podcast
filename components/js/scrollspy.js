@@ -39,4 +39,8 @@ $(function(){
       } //target.length
     } //click function
   }); //smooth scrolling
+  
+  $(window).on('activate.bs.scrollspy', function (e) {
+  history.replaceState({}, "", $("a[href^='#']", e.target).attr("href"));
+});
 });

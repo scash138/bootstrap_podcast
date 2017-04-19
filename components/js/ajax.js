@@ -60,7 +60,7 @@ $(function(){
     showMore(); //run show more to limit characters in description
 
     //onclick to replace elements with new guests
-    $('button').click(function(){
+    $('.next-page button').click(function(){
       var ubound = ($(this).val() * 9);
       var lbound = (($(this).val() * 9) - 9);
 
@@ -90,6 +90,18 @@ $(function(){
 
       showMore(); //run show more to limit characters in description
     });
+
+    //search function
+    $('.searchpodcast').click(function(){
+      var searchTerm = $('#srch-term').val();
+      console.log(searchTerm);
+      console.log(podcastData);
+      // $.each(podcastData.description, function(){
+      //
+      // })
+      // console.log($('#srch-term').val());
+      return false;
+    })
 
 })
   .done(function(data) {

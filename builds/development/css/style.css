@@ -234,6 +234,9 @@ and (max-width: 768px) {
 #podcast .container.searchbox {
 	margin-bottom: 25px;
 }
+#podcast .podcast-ajax {
+	min-height: 570px;
+}
 .morecontent span {
     display: none;
 }
@@ -255,20 +258,46 @@ and (max-width: 768px) {
 .guest img {
 	width: 100%;
 }
-/*.guest a {
-	position: relative;
-	display: inline-block;
+.guest.new-row {
+	margin-top: 0;
 }
-.guest a::before{
-	content: "";
-	position: absolute;
-	top: 0;
-	width: 100px;
-	height: 100px;
-	z-index: 100;
-	background: transparent url(../images/play.png) center center no-repeat;
-	pointer-events: none;
-}*/
+.guest .row {
+	min-height: 150px;
+}
+.photo .img-circle {
+  /*opacity: .9;*/
+  transition: all 0.3s ease-out;
+}
+
+@media only screen
+and (max-width: 1200px)
+and (min-width: 768px) {
+	.photo .img-circle {
+		width: 130px;
+		height: 130px;
+	}
+}
+
+@media only screen
+and (max-width: 767px) {
+	.photo a img {
+		width: 50%;
+		margin: auto;
+		display: block;
+	}
+}
+
+.photo .img-circle:hover {
+  cursor: pointer;
+  opacity: .5;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.photo.col-md-2{
+
+}
 @media only screen and (max-width: 768px) {
 	h3, h4 {
 		text-align: center;

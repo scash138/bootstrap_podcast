@@ -4,7 +4,7 @@ var gulp = require('gulp'),
     browserify = require('gulp-browserify'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
-    connect = require('gulp-connect');
+    connect = require('gulp-webserver');
 
 var environment,
     jsSources,
@@ -33,31 +33,26 @@ gulp.task('js', function() {
     .pipe(browserify())
     .pipe(gulpif(environment === 'production', uglify()))
     .pipe(gulp.dest(outputDir + 'js'))
-    .pipe(connect.reload())
 });
 
 gulp.task('html', function() {
   gulp.src(htmlSources)
     .pipe(gulpif(environment === 'development', gulp.dest(outputDir)))
-    .pipe(connect.reload())
 });
 
 gulp.task('css', function() {
   gulp.src(cssSources)
     .pipe(gulpif(environment === 'development', gulp.dest(outputDir + 'css/')))
-    .pipe(connect.reload())
 });
 
 gulp.task('images', function() {
   gulp.src(imageSources)
     .pipe(gulpif(environment === 'development', gulp.dest(outputDir + 'images/')))
-    .pipe(connect.reload())
 });
 
 gulp.task('json', function() {
   gulp.src(jsonSources)
     .pipe(gulpif(environment === 'development', gulp.dest(outputDir + 'js/')))
-    .pipe(connect.reload())
 });
 
 gulp.task('watch', function() {
@@ -69,10 +64,11 @@ gulp.task('watch', function() {
 });
 
 gulp.task('connect', function() {
-  connect.server({
-    root: outputDir,
-    livereload: true
-  });
+  gulp.src(outputDir)
+    .pipe(connect({
+      livereload: true,
+      open: true
+    }));
 });
 
 gulp.task('run', ['js','html','css','json','images','connect', 'watch']);
