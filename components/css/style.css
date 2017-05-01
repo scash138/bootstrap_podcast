@@ -258,8 +258,11 @@ and (max-width: 768px) {
 .guest img {
 	width: 100%;
 }
-.guest.new-row {
-	margin-top: 0;
+@media only screen
+and (max-width: 1200px){
+	.guest.new-row {
+		margin-top: 0;
+	}
 }
 .guest .row {
 	min-height: 150px;

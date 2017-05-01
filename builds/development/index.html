@@ -3,11 +3,12 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Sterling Cash Podcast</title>
+  <title>Squirreling Podcast</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="js/prefixfree.min.js">
+  <script src="js/prefixfree.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The home of the Squirreling Podcast where we discuss music and all sorts of nonsense.">
 </head>
 
 <body>
@@ -49,8 +50,8 @@
         <img class="page-divider-image" src="images/divider_p.png" alt="home_br">
       </div>
       <div class="row">
-        <p class="col-md-5 col-md-offset-1">Sterling has been a Dallas based musician for over 13 years. He is currently in <a href="http://www.partakerband.com">Partaker</a> and has previously played in Broadcast Sea. His love for podcasts has driven him to create his own podcast to talk about what he loves most, music.</p>
-        <p class="col-md-5">This podcast is </p>
+        <p class="col-md-5 col-md-offset-1">Sterling is the host and has been a Dallas based musician for over 13 years. He is currently in <a href="https://www.partakerband.com" target="_blank">Partaker</a> and has previously played in <a href="https://broadcastsea.bandcamp.com/" target="_blank">Broadcast Sea</a>. His love for podcasts has driven him to create his own podcast to talk about what he loves most, music.</p>
+        <p class="col-md-5">Squirreling Podcast is dedicated to talking to local and national muscians about what they are up to and what they are listening to.</p>
       </div> <!-- row -->
     </div><!-- content container -->
   </div><!-- about page -->
@@ -80,7 +81,7 @@
       <div class="container searchbox">
         <form class="navbar-form pull-right" role="search">
           <div class="input-group add-on">
-            <input class="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text">
+            <input class="form-control" placeholder="Search..." name="srch-term" id="srch-term" type="text">
               <div class="input-group-btn">
                 <button class="btn btn-default searchpodcast" type="submit"><i class="glyphicon glyphicon-search"></i></button>
               </div>
@@ -214,8 +215,9 @@
             </div>
       </div>
       <div class="container next-page">
-        <div class="btn-group pull-right page-count" role="group" aria-label="...">
-        </div>
+        <ul id="podcast-pagination-group" class="pagination-sm pull-right"></ul>
+        <!-- <div class="btn-group pull-right page-count" role="group" aria-label="...">
+        </div> -->
       </div><!-- podcast ajax -->
     </div><!-- container #podcast -->
   </div><!-- podcast page -->
