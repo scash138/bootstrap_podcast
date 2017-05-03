@@ -1,119 +1,202 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 $(function(){
-  $.getJSON('js/podcasts.json', function(data) {
-    //show more and less results function
-    function showMore(){
-      var showChar = 150;  // How many characters are shown by default
-      var ellipsestext = "...";
-      var moretext = "Show more >>";
-      var lesstext = "<< Show less";
+//show more or less function
+  function showMore(){
+    var showChar = 150;  // How many characters are shown by default
+    var ellipsestext = "...";
+    var moretext = "Show more >>";
+    var lesstext = "<< Show less";
 
 
-      $('.guest-description').each(function() {
-        var content = $(this).html();
+    $('.guest-description').each(function() {
+      var content = $(this).html();
 
-        if(content.length > showChar) {
+      if(content.length > showChar) {
 
-          var c = content.substr(0, showChar);
-          var h = content.substr(showChar, content.length - showChar);
+        var c = content.substr(0, showChar);
+        var h = content.substr(showChar, content.length - showChar);
 
-          var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
+        var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
 
-          $(this).html(html);
-        }
-      });
-
-      $(".morelink").click(function(){
-        if($(this).hasClass("less")) {
-          $(this).removeClass("less");
-          $(this).html(moretext);
-        } else {
-          $(this).addClass("less");
-          $(this).html(lesstext);
-        }
-        $(this).parent().prev().toggle();
-        $(this).prev().toggle();
-        return false;
-      });
-    }//end of show more less function
-
-    //get ajax json podcast guests
-    var podcastData = $.each(data.podcasts, function(index, el) {
-    });
-    //page-count buttons
-    var pages = Math.ceil(podcastData.length/9);
-    //pagination for ajax podcast guests
-    $('#podcast-pagination-group').twbsPagination({
-        totalPages: pages,
-        visiblePages: 4,
-        onPageClick: function (event, page) {
-
-          var ubound = (page * 9);
-          var lbound = ((page * 9) - 9);
-
-          $.each($('#podcast .guest'),function() {
-            if(podcastData[lbound] == null) {
-              $('h3', this).text('');
-              $('h4', this).text('');
-              $('p', this).text('');
-              $('.photo img', this).removeClass('img-circle');
-              $('.photo img', this).removeAttr('src');
-              $('.photo img', this).removeAttr('alt');
-              $('.photo a', this).hide();
-              lbound +=1;
-            } else {
-              $('h3', this).text(podcastData[lbound].guest);
-              $('h4', this).text('Episode #' + podcastData[lbound].episode + ' - ' + podcastData[lbound].date);
-              $('p', this).text(podcastData[lbound].description);
-              $('.photo img', this).addClass('img-circle');
-              $('.photo img', this).attr('src',podcastData[lbound].image);
-              $('.photo img', this).attr('alt',podcastData[lbound].alt);
-              $('.photo a', this).attr('href',podcastData[lbound].audiofile);
-              $('.photo a', this).show();
-              lbound +=1;
-            }
-
-          });
-
-          showMore(); //run show more to limit characters in description
-        }
+        $(this).html(html);
+      }
     });
 
-    //populate elements with podcast guests
-    $.each($('#podcast .guest'),function(index, el) {
-      $('h3', this).text(podcastData[index].guest);
-      $('h4', this).text('Episode #' + podcastData[index].episode + ' - ' + podcastData[index].date);
-      $('p', this).text(podcastData[index].description);
-      $('.photo img', this).addClass('img-circle');
-      $('.photo img', this).attr('src',podcastData[index].image);
-      $('.photo img', this).attr('alt',podcastData[index].alt);
-      $('.photo a', this).attr('href',podcastData[index].audiofile);
-    });
-
-    showMore(); //run show more to limit characters in description
-
-    //search function
-    $('.searchpodcast').click(function(){
-      var searchTerm = $('#srch-term').val();
-      console.log(searchTerm);
-      console.log(podcastData);
-      // $.each(podcastData.description, function(){
-      //
-      // })
-      // console.log($('#srch-term').val());
+    $(".morelink").click(function(){
+      if($(this).hasClass("less")) {
+        $(this).removeClass("less");
+        $(this).html(moretext);
+      } else {
+        $(this).addClass("less");
+        $(this).html(lesstext);
+      }
+      $(this).parent().prev().toggle();
+      $(this).prev().toggle();
       return false;
-    })
+    });
+  }
 
-})
-  .done(function(data) {
+  function paginationFunc(data){
+    var pages = Math.ceil(data.podcasts.length/9);
 
-  })
-  .fail(function() {
+        //pagination for ajax podcast guests
+        $('#podcast-pagination-group').twbsPagination({
+            totalPages: pages,
+            visiblePages: 4,
+            hideOnlyOnePage: true,
+            onPageClick: function (event, page) {
 
-  })
-  .always(function() {
+              var ubound = (page * 9);
+              var lbound = ((page * 9) - 9);
 
+              $.each($('#podcast .guest'),function() {
+                if(data.podcasts[lbound] == null) {
+                  $('h3', this).text('');
+                  $('h4', this).text('');
+                  $('p', this).text('');
+                  $('.photo img', this).removeClass('img-circle');
+                  $('.photo img', this).removeAttr('src');
+                  $('.photo img', this).removeAttr('alt');
+                  $('.photo a', this).hide();
+                  lbound +=1;
+                } else {
+                  $('h3', this).text(data.podcasts[lbound].guest);
+                  $('h4', this).text('Episode #' + data.podcasts[lbound].episode + ' - ' + data.podcasts[lbound].date);
+                  $('p', this).text(data.podcasts[lbound].description);
+                  $('.photo img', this).addClass('img-circle');
+                  $('.photo img', this).attr('src',data.podcasts[lbound].image);
+                  $('.photo img', this).attr('alt',data.podcasts[lbound].alt);
+                  $('.photo a', this).attr('href',data.podcasts[lbound].audiofile);
+                  $('.photo a', this).show();
+                  lbound +=1;
+                }
+
+              });
+
+              showMore(); //run show more to limit characters in description
+            }
+        });
+  }
+
+  //search function Winthrop
+  $('.searchpodcast').click(function(){
+    var searchTerm = $('#srch-term').val();
+    var searchExp = new RegExp(searchTerm, "i");
+    var i = 0;
+
+    $.each($('#podcast .guest'),function() {
+      $('h3', this).text('');
+      $('h4', this).text('');
+      $('p', this).text('');
+      $('.photo img', this).removeClass('img-circle');
+      $('.photo img', this).removeAttr('src');
+      $('.photo img', this).removeAttr('alt');
+      $('.photo a', this).hide();
+    });
+
+    $.getJSON('js/podcasts.json', function(data) {
+      $.each(data.podcasts, function(index, val) {
+        if(val.description.search(searchExp) != -1) {
+            $("#podcast .guest h3").eq(i).text(val.guest);
+            $('#podcast .guest h4').eq(i).text('Episode #' + val.episode + ' - ' + val.date);
+            $('#podcast .guest p').eq(i).text(val.description);
+            $('#podcast .guest .photo img').eq(i).addClass('img-circle');
+            $('#podcast .guest .photo img').eq(i).attr('src',val.image);
+            $('#podcast .guest .photo img').eq(i).attr('alt',val.alt);
+            $('#podcast .guest .photo a').eq(i).attr('href',val.audiofile);
+            $('#podcast .guest .photo a').eq(i).show();
+            i +=1;
+        }
+      });
+      showMore();
+      paginationFunc(data);
+    });
+    return false;
   });
+
+
+  //get json
+  $.getJSON('js/podcasts.json', function(data) {
+      $.each($('#podcast .guest'),function(index, el) {
+          $('h3', this).text(data.podcasts[index].guest);
+          $('h4', this).text('Episode #' + data.podcasts[index].episode + ' - ' + data.podcasts[index].date);
+          $('p', this).text(data.podcasts[index].description);
+          $('.photo img', this).addClass('img-circle');
+          $('.photo img', this).attr('src',data.podcasts[index].image);
+          $('.photo img', this).attr('alt',data.podcasts[index].alt);
+          $('.photo a', this).attr('href',data.podcasts[index].audiofile);
+    });
+    showMore();
+    paginationFunc(data);
+  });
+//get json
+// $.getJSON('js/podcasts.json', function(data) {
+//
+//     //get ajax json podcast guests
+//     var podcastData = $.each(data.podcasts, function(index, el) {
+//     });
+//     //page-count buttons
+//     var pages = Math.ceil(podcastData.length/9);
+//     //pagination for ajax podcast guests
+//     $('#podcast-pagination-group').twbsPagination({
+//         totalPages: pages,
+//         visiblePages: 4,
+//         onPageClick: function (event, page) {
+//
+//           var ubound = (page * 9);
+//           var lbound = ((page * 9) - 9);
+//
+//           $.each($('#podcast .guest'),function() {
+//             if(podcastData[lbound] == null) {
+//               $('h3', this).text('');
+//               $('h4', this).text('');
+//               $('p', this).text('');
+//               $('.photo img', this).removeClass('img-circle');
+//               $('.photo img', this).removeAttr('src');
+//               $('.photo img', this).removeAttr('alt');
+//               $('.photo a', this).hide();
+//               lbound +=1;
+//             } else {
+//               $('h3', this).text(podcastData[lbound].guest);
+//               $('h4', this).text('Episode #' + podcastData[lbound].episode + ' - ' + podcastData[lbound].date);
+//               $('p', this).text(podcastData[lbound].description);
+//               $('.photo img', this).addClass('img-circle');
+//               $('.photo img', this).attr('src',podcastData[lbound].image);
+//               $('.photo img', this).attr('alt',podcastData[lbound].alt);
+//               $('.photo a', this).attr('href',podcastData[lbound].audiofile);
+//               $('.photo a', this).show();
+//               lbound +=1;
+//             }
+//
+//           });
+//
+//           showMore(); //run show more to limit characters in description
+//         }
+//     });
+//
+//     //populate elements with podcast guests
+//     $.each($('#podcast .guest'),function(index, el) {
+//       $('h3', this).text(podcastData[index].guest);
+//       $('h4', this).text('Episode #' + podcastData[index].episode + ' - ' + podcastData[index].date);
+//       $('p', this).text(podcastData[index].description);
+//       $('.photo img', this).addClass('img-circle');
+//       $('.photo img', this).attr('src',podcastData[index].image);
+//       $('.photo img', this).attr('alt',podcastData[index].alt);
+//       $('.photo a', this).attr('href',podcastData[index].audiofile);
+//     });
+//
+//     showMore(); //run show more to limit characters in description
+//
+// })
+//   .done(function(data) {
+//
+//   })
+//   .fail(function() {
+//
+//   })
+//   .always(function() {
+//
+//   });
 });
 
 $(function(){
