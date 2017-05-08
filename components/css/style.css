@@ -33,12 +33,21 @@ hr {
 }
 
 .wide {
-  width:100%;
+	width:100%;
   height:100%;
-  height:calc(100% - 1px);
-  background-image:url(../images/cover2.jpg);
-  background-size:cover;
+  /*height:calc(100% - 1px);*/
+  background-image:url(../images/face_logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+  background-size: contain;
 }
+
+/*.wide .pic {
+  background-image:url(../images/face_logo.png);
+	background-repeat: no-repeat;
+  background-size: auto;
+}*/
+
 a {
 	color: #fff;
 }
