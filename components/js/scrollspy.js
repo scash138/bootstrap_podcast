@@ -35,11 +35,12 @@ $(function(){
         $('html,body').animate({
           scrollTop: target.offset().top-topoffset+2
         }, 500);
+        console.log(target);
         return false;
       } //target.length
     } //click function
   }); //smooth scrolling
-  
+
   $(window).on('activate.bs.scrollspy', function (e) {
   history.replaceState({}, "", $("a[href^='#']", e.target).attr("href"));
 });

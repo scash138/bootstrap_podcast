@@ -73,6 +73,12 @@ $(function(){
               });
 
               showMore(); //run show more to limit characters in description
+              $('#podcast-pagination-group a').click(function() {
+                var topoffset = 50;
+                $('html,body').animate({
+                  scrollTop: $('#podcast').offset().top-topoffset+2
+                }, 500);
+              });
             }
         });
   }
@@ -127,6 +133,7 @@ $(function(){
     });
     showMore();
     paginationFunc(data);
+
   });
 //get json
 // $.getJSON('js/podcasts.json', function(data) {
