@@ -25,7 +25,7 @@ jsSources = ['components/js/*.js'];
 htmlSources = ['components/html/*.html'];
 cssSources = ['components/css/*.css'];
 jsonSources = ['components/js/*.json'];
-imageSources = ['components/images/*.*']
+imageSources = ['components/images/']
 
 gulp.task('js', function() {
   gulp.src(jsSources)
@@ -46,7 +46,9 @@ gulp.task('css', function() {
 });
 
 gulp.task('images', function() {
-  gulp.src(imageSources)
+  gulp.src(imageSources + '*.*')
+    .pipe(gulpif(environment === 'development', gulp.dest(outputDir + 'images/')))
+  gulp.src(imageSources + '*/*.*')
     .pipe(gulpif(environment === 'development', gulp.dest(outputDir + 'images/')))
 });
 
