@@ -73,14 +73,26 @@ $(function(){
               });
 
               showMore(); //run show more to limit characters in description
+              hideRows();
               $('#podcast-pagination-group a').click(function() {
                 var topoffset = 50;
                 $('html,body').animate({
-                  scrollTop: $('#podcast').offset().top-topoffset+2
+                  scrollTop: $('#podcast').offset().top+topoffset+2
                 }, 500);
               });
             }
         });
+  }
+
+  function hideRows(){
+    $('.row-2').show();
+    $('.row-3').show();
+    if ($('.row-2 .info h3').first().text() == '') {
+      $('.row-2').hide();
+    }
+    if ($('.row-3 .info h3').first().text() == '') {
+      $('.row-3').hide();
+    }
   }
 
   //search function Winthrop
@@ -98,7 +110,7 @@ $(function(){
       $('.photo img', this).removeAttr('alt');
       $('.photo a', this).hide();
     });
-
+//need to make this a filter insted of if then statement search grep array
     $.getJSON('js/podcasts.json', function(data) {
       $.each(data.podcasts, function(index, val) {
         if(val.description.search(searchExp) != -1) {
@@ -122,19 +134,28 @@ $(function(){
 
   //get json
   $.getJSON('js/podcasts.json', function(data) {
-      $.each($('#podcast .guest'),function(index, el) {
-          $('h3', this).text(data.podcasts[index].guest);
-          $('h4', this).text('Episode #' + data.podcasts[index].episode + ' - ' + data.podcasts[index].date);
-          $('p', this).text(data.podcasts[index].description);
-          $('.photo img', this).addClass('img-circle');
-          $('.photo img', this).attr('src',data.podcasts[index].image);
-          $('.photo img', this).attr('alt',data.podcasts[index].alt);
-          $('.photo a', this).attr('href',data.podcasts[index].audiofile);
+    // try {
+    $.each(data.podcasts, function(index, val) {
+          $("#podcast .guest h3").eq(index).text(val.guest);
+          $('#podcast .guest h4').eq(index).text('Episode #' + val.episode + ' - ' + val.date);
+          $('#podcast .guest p').eq(index).text(val.description);
+          $('#podcast .guest .photo img').eq(index).addClass('img-circle');
+          $('#podcast .guest .photo img').eq(index).attr('src',val.image);
+          $('#podcast .guest .photo img').eq(index).attr('alt',val.alt);
+          $('#podcast .guest .photo a').eq(index).attr('href',val.audiofile);
+          $('#podcast .guest .photo a').eq(index).show();
     });
-    showMore();
-    paginationFunc(data);
-
+      showMore();
+      paginationFunc(data);
+    // } catch(err){
+    //
+    // }
+  })
+  .done(function(data) {
+    hideRows();
   });
+
+  // hideRows();
 //get json
 // $.getJSON('js/podcasts.json', function(data) {
 //

@@ -5,7 +5,7 @@
       "guest": "Sterling Cash",
       "band": "Test Band",
       "description": "1Dr. Winthrop is the guardian of Missy, a three-year old Llaso mix, who he adopted at the shelter. Dr. Winthrop is passionate about spay a.",
-      "image": "images/1.jpg",
+      "image": "images/guest_images/1.jpg",
       "alt": "Test Guest 1",
       "audiofile": "#"
     },
@@ -15,7 +15,7 @@
       "guest": "Test Guest 2",
       "band": "Test Band 2",
       "description": "2Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-      "image": "images/1.jpg",
+      "image": "images/guest_images/1.jpg",
       "alt": "Test Guest 2",
       "audiofile": "#"
     },
@@ -25,7 +25,7 @@
       "guest": "Test Guest 3",
       "band": "Test Band 3",
       "description": "3Dr. Winthrop is the guardian of Missy, a three-year old Llaso mix, who he adopted at the shelter. Dr. Winthrop is passionate about spay a.",
-      "image": "images/3.jpg",
+      "image": "images/guest_images/3.jpg",
       "alt": "Test Guest 3",
       "audiofile": "#"
     },
@@ -35,7 +35,7 @@
       "guest": "Test Guest 4",
       "band": "Test Band 4",
       "description": "4Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-      "image": "images/4.jpg",
+      "image": "images/guest_images/4.jpg",
       "alt": "Test Guest 4",
       "audiofile": "#"
     },
@@ -45,7 +45,7 @@
       "guest": "Test Guest 5",
       "band": "Test Band 5",
       "description": "5Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-      "image": "images/5.jpg",
+      "image": "images/guest_images/5.jpg",
       "alt": "Test Guest 5",
       "audiofile": "#"
     },
@@ -55,7 +55,7 @@
       "guest": "Test Guest 6",
       "band": "Test Band 6",
       "description": "6Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-      "image": "images/5.jpg",
+      "image": "images/guest_images/5.jpg",
       "alt": "Test Guest 6",
       "audiofile": "#"
     },
@@ -65,7 +65,7 @@
       "guest": "Test Guest 7",
       "band": "Test Band 7",
       "description": "7Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-      "image": "images/5.jpg",
+      "image": "images/guest_images/5.jpg",
       "alt": "Test Guest 5",
       "audiofile": "#"
     },
@@ -75,7 +75,7 @@
       "guest": "Test Guest 8",
       "band": "Test Band 8",
       "description": "8Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-      "image": "images/5.jpg",
+      "image": "images/guest_images/5.jpg",
       "alt": "Test Guest 5",
       "audiofile": "#"
     },
@@ -85,7 +85,7 @@
       "guest": "Test Guest 9",
       "band": "Test Band 9",
       "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-      "image": "images/5.jpg",
+      "image": "images/guest_images/5.jpg",
       "alt": "Test Guest 5",
       "audiofile": "#"
     },
@@ -95,7 +95,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -105,7 +105,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -115,7 +115,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -125,7 +125,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -135,7 +135,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -145,7 +145,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -155,7 +155,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -165,7 +165,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -175,7 +175,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -185,7 +185,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -195,7 +195,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -205,7 +205,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -215,7 +215,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -225,7 +225,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -235,7 +235,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -245,7 +245,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -255,7 +255,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -265,7 +265,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -275,7 +275,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -285,7 +285,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -295,7 +295,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -305,7 +305,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -315,7 +315,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -325,7 +325,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -335,7 +335,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -345,7 +345,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -355,7 +355,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -365,7 +365,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -375,7 +375,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -385,7 +385,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -395,7 +395,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -405,7 +405,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -415,7 +415,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -425,7 +425,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -435,7 +435,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -445,7 +445,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -455,7 +455,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -465,7 +465,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -475,7 +475,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -485,7 +485,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -495,7 +495,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     },
@@ -505,7 +505,7 @@
           "guest": "Test Guest 10",
           "band": "Test Band 10",
           "description": "9Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.",
-          "image": "images/5.jpg",
+          "image": "images/guest_images/5.jpg",
           "alt": "Test Guest 5",
           "audiofile": "#"
     }

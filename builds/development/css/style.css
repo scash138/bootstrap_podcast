@@ -254,7 +254,7 @@ and (max-width: 768px) {
 	margin-bottom: 25px;
 }
 #podcast .podcast-ajax {
-	min-height: 570px;
+	min-height: 170px;
 }
 .morecontent span {
     display: none;
