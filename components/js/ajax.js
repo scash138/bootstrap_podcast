@@ -36,9 +36,9 @@ $(function(){
   }
 
   function paginationFunc(data){
-    var pages = Math.ceil(data.podcasts.length/9);
-
+    var pages = Math.ceil(data.length/9);
         //pagination for ajax podcast guests
+        $('#podcast-pagination-group').twbsPagination('destroy');//call destroy
         $('#podcast-pagination-group').twbsPagination({
             totalPages: pages,
             visiblePages: 4,
@@ -47,9 +47,8 @@ $(function(){
 
               var ubound = (page * 9);
               var lbound = ((page * 9) - 9);
-
               $.each($('#podcast .guest'),function() {
-                if(data.podcasts[lbound] == null) {
+                if(data[lbound] == null) {
                   $('h3', this).text('');
                   $('h4', this).text('');
                   $('p', this).text('');
@@ -59,13 +58,13 @@ $(function(){
                   $('.photo a', this).hide();
                   lbound +=1;
                 } else {
-                  $('h3', this).text(data.podcasts[lbound].guest);
-                  $('h4', this).text('Episode #' + data.podcasts[lbound].episode + ' - ' + data.podcasts[lbound].date);
-                  $('p', this).text(data.podcasts[lbound].description);
+                  $('h3', this).text(data[lbound].guest);
+                  $('h4', this).text('Episode #' + data[lbound].episode + ' - ' + data[lbound].date);
+                  $('p', this).text(data[lbound].description);
                   $('.photo img', this).addClass('img-circle');
-                  $('.photo img', this).attr('src',data.podcasts[lbound].image);
-                  $('.photo img', this).attr('alt',data.podcasts[lbound].alt);
-                  $('.photo a', this).attr('href',data.podcasts[lbound].audiofile);
+                  $('.photo img', this).attr('src',data[lbound].image);
+                  $('.photo img', this).attr('alt',data[lbound].alt);
+                  $('.photo a', this).attr('href',data[lbound].audiofile);
                   $('.photo a', this).show();
                   lbound +=1;
                 }
@@ -112,8 +111,11 @@ $(function(){
     });
 //need to make this a filter insted of if then statement search grep array
     $.getJSON('js/podcasts.json', function(data) {
-      $.each(data.podcasts, function(index, val) {
-        if(val.description.search(searchExp) != -1) {
+      var returnarry = $.grep(data.podcasts, function(e, i){
+        return e.description.toLowerCase().indexOf(searchTerm.toLowerCase()) >=0;
+      });
+
+      $.each(returnarry, function(index, val) {
             $("#podcast .guest h3").eq(i).text(val.guest);
             $('#podcast .guest h4').eq(i).text('Episode #' + val.episode + ' - ' + val.date);
             $('#podcast .guest p').eq(i).text(val.description);
@@ -123,10 +125,9 @@ $(function(){
             $('#podcast .guest .photo a').eq(i).attr('href',val.audiofile);
             $('#podcast .guest .photo a').eq(i).show();
             i +=1;
-        }
       });
       showMore();
-      paginationFunc(data);
+      paginationFunc(returnarry);
     });
     return false;
   });
@@ -146,7 +147,7 @@ $(function(){
           $('#podcast .guest .photo a').eq(index).show();
     });
       showMore();
-      paginationFunc(data);
+      paginationFunc(data.podcasts);
     // } catch(err){
     //
     // }
@@ -154,74 +155,4 @@ $(function(){
   .done(function(data) {
     hideRows();
   });
-
-  // hideRows();
-//get json
-// $.getJSON('js/podcasts.json', function(data) {
-//
-//     //get ajax json podcast guests
-//     var podcastData = $.each(data.podcasts, function(index, el) {
-//     });
-//     //page-count buttons
-//     var pages = Math.ceil(podcastData.length/9);
-//     //pagination for ajax podcast guests
-//     $('#podcast-pagination-group').twbsPagination({
-//         totalPages: pages,
-//         visiblePages: 4,
-//         onPageClick: function (event, page) {
-//
-//           var ubound = (page * 9);
-//           var lbound = ((page * 9) - 9);
-//
-//           $.each($('#podcast .guest'),function() {
-//             if(podcastData[lbound] == null) {
-//               $('h3', this).text('');
-//               $('h4', this).text('');
-//               $('p', this).text('');
-//               $('.photo img', this).removeClass('img-circle');
-//               $('.photo img', this).removeAttr('src');
-//               $('.photo img', this).removeAttr('alt');
-//               $('.photo a', this).hide();
-//               lbound +=1;
-//             } else {
-//               $('h3', this).text(podcastData[lbound].guest);
-//               $('h4', this).text('Episode #' + podcastData[lbound].episode + ' - ' + podcastData[lbound].date);
-//               $('p', this).text(podcastData[lbound].description);
-//               $('.photo img', this).addClass('img-circle');
-//               $('.photo img', this).attr('src',podcastData[lbound].image);
-//               $('.photo img', this).attr('alt',podcastData[lbound].alt);
-//               $('.photo a', this).attr('href',podcastData[lbound].audiofile);
-//               $('.photo a', this).show();
-//               lbound +=1;
-//             }
-//
-//           });
-//
-//           showMore(); //run show more to limit characters in description
-//         }
-//     });
-//
-//     //populate elements with podcast guests
-//     $.each($('#podcast .guest'),function(index, el) {
-//       $('h3', this).text(podcastData[index].guest);
-//       $('h4', this).text('Episode #' + podcastData[index].episode + ' - ' + podcastData[index].date);
-//       $('p', this).text(podcastData[index].description);
-//       $('.photo img', this).addClass('img-circle');
-//       $('.photo img', this).attr('src',podcastData[index].image);
-//       $('.photo img', this).attr('alt',podcastData[index].alt);
-//       $('.photo a', this).attr('href',podcastData[index].audiofile);
-//     });
-//
-//     showMore(); //run show more to limit characters in description
-//
-// })
-//   .done(function(data) {
-//
-//   })
-//   .fail(function() {
-//
-//   })
-//   .always(function() {
-//
-//   });
 });

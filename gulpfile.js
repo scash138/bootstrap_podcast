@@ -25,7 +25,8 @@ jsSources = ['components/js/*.js'];
 htmlSources = ['components/html/*.html'];
 cssSources = ['components/css/*.css'];
 jsonSources = ['components/js/*.json'];
-imageSources = ['components/images/']
+imageSources = ['components/images/'];
+audioSources = ['components/audio/*.mp3'];
 
 gulp.task('js', function() {
   gulp.src(jsSources)
@@ -33,6 +34,11 @@ gulp.task('js', function() {
     .pipe(browserify())
     .pipe(gulpif(environment === 'production', uglify()))
     .pipe(gulp.dest(outputDir + 'js'))
+});
+
+gulp.task('audio', function() {
+  gulp.src(audioSources)
+    .pipe(gulpif(environment === 'development', gulp.dest(outputDir + 'audio/')))
 });
 
 gulp.task('html', function() {
@@ -63,6 +69,7 @@ gulp.task('watch', function() {
   gulp.watch(cssSources, ['css']);
   gulp.watch(jsonSources, ['json']);
   gulp.watch(imageSources, ['images']);
+  gulp.watch(audioSources, ['audio']);
 });
 
 gulp.task('connect', function() {
@@ -73,4 +80,4 @@ gulp.task('connect', function() {
     }));
 });
 
-gulp.task('run', ['js','html','css','json','images','connect', 'watch']);
+gulp.task('run', ['js','html','css','json','images','audio','connect', 'watch']);
