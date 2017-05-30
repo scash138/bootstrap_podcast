@@ -1,13 +1,13 @@
 {
   "podcasts":[{
       "episode": "1",
-      "date" : "01/01/2017",
-      "guest": "Sterling Cash",
-      "band": "Test Band",
-      "description": "1Dr. Winthrop is the guardian of Missy, a three-year old Llaso mix, who he adopted at the shelter. Dr. Winthrop is passionate about spay a.",
-      "image": "images/guest_images/1.jpg",
-      "alt": "Test Guest 1",
-      "audiofile": "audio/Doha.mp3"
+      "date" : "05/26/2017",
+      "guest": "Britt Robisheaux",
+      "band": "Most Efficient Women",
+      "description": "Britt Robisheaux is an audio engineer at Cloudland Recording Studio in Fort Worth, Texas and currently plays in Most Efficient Women and Theater Fire. He has previously played in Drug Mountain and Nouns Group. If you are in need of a great recording book some time with Britt.",
+      "image": "images/guest_images/Britt_Sterling.jpg",
+      "alt": "Britt_Robisheaux",
+      "audiofile": "audio/Squirreling Podcast - Episode 1.mp3"
     }
   ]
 }
