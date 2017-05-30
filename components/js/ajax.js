@@ -60,7 +60,7 @@ $(function(){
                 } else {
                   $('h3', this).text(data[lbound].guest);
                   $('h4', this).text('Episode #' + data[lbound].episode + ' - ' + data[lbound].date);
-                  $('p', this).text(data[lbound].description);
+                  $('p', this).html(data[lbound].description);
                   $('.photo img', this).addClass('img-circle');
                   $('.photo img', this).attr('src',data[lbound].image);
                   $('.photo img', this).attr('alt',data[lbound].alt);
@@ -103,7 +103,7 @@ $(function(){
     $.each($('#podcast .guest'),function() {
       $('h3', this).text('');
       $('h4', this).text('');
-      $('p', this).text('');
+      $('p', this).html('');
       $('.photo img', this).removeClass('img-circle');
       $('.photo img', this).removeAttr('src');
       $('.photo img', this).removeAttr('alt');
@@ -118,7 +118,7 @@ $(function(){
       $.each(returnarry, function(index, val) {
             $("#podcast .guest h3").eq(i).text(val.guest);
             $('#podcast .guest h4').eq(i).text('Episode #' + val.episode + ' - ' + val.date);
-            $('#podcast .guest p').eq(i).text(val.description);
+            $('#podcast .guest p').eq(i).html(val.description);
             $('#podcast .guest .photo img').eq(i).addClass('img-circle');
             $('#podcast .guest .photo img').eq(i).attr('src',val.image);
             $('#podcast .guest .photo img').eq(i).attr('alt',val.alt);
@@ -139,7 +139,7 @@ $(function(){
     $.each(data.podcasts, function(index, val) {
           $("#podcast .guest h3").eq(index).text(val.guest);
           $('#podcast .guest h4').eq(index).text('Episode #' + val.episode + ' - ' + val.date);
-          $('#podcast .guest p').eq(index).text(val.description);
+          $('#podcast .guest p').eq(index).html(val.description);
           $('#podcast .guest .photo img').eq(index).addClass('img-circle');
           $('#podcast .guest .photo img').eq(index).attr('src',val.image);
           $('#podcast .guest .photo img').eq(index).attr('alt',val.alt);
