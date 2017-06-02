@@ -8,6 +8,16 @@
       "image": "images/guest_images/Britt_Sterling.jpg",
       "alt": "Britt_Robisheaux",
       "audiofile": "audio/Squirreling Podcast - Episode 1.mp3"
+    },
+    {
+      "episode": "2",
+      "date" : "06/01/2017",
+      "guest": "Adam Bertholdi",
+      "band": "Cozy Hawks",
+      "description": "Adam Bertholdi is a Denton, Tx based musician who plays in <a href='https://www.facebook.com/cozyhawksmusic/' target='blank_'>Cozy Hawks</a>. He has previously played in Gazelles and A Faith Called Chaos. Cozy Hawks are currently looking for a drummer so if you are interested hit them up!",
+      "image": "images/guest_images/Adam_Sterling.jpg",
+      "alt": "Adam_Bertholdi",
+      "audiofile": "audio/Squirreling Podcast - Episode 2.mp3"
     }
   ]
 }
