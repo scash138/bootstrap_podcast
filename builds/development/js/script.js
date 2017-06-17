@@ -10,7 +10,6 @@ $(function(){
 
     $('.guest-description').each(function() {
       var content = $(this).html();
-
       if(content.length > showChar) {
 
         var c = content.substr(0, showChar);
@@ -52,6 +51,7 @@ $(function(){
                 if(data[lbound] == null) {
                   $('h3', this).text('');
                   $('h4', this).text('');
+                  $('h5', this).text('');
                   $('p', this).text('');
                   $('.photo img', this).removeClass('img-circle');
                   $('.photo img', this).removeAttr('src');
@@ -61,7 +61,8 @@ $(function(){
                 } else {
                   $('h3', this).text(data[lbound].guest);
                   $('h4', this).text('Episode #' + data[lbound].episode + ' - ' + data[lbound].date);
-                  $('p', this).html(data[lbound].description);
+                  $('h5', this).html(data[lbound].links);
+                  $('p', this).html(data[lbound].description_raw);
                   $('.photo img', this).addClass('img-circle');
                   $('.photo img', this).attr('src',data[lbound].image);
                   $('.photo img', this).attr('alt',data[lbound].alt);
@@ -104,6 +105,7 @@ $(function(){
     $.each($('#podcast .guest'),function() {
       $('h3', this).text('');
       $('h4', this).text('');
+      $('h5', this).text('');
       $('p', this).html('');
       $('.photo img', this).removeClass('img-circle');
       $('.photo img', this).removeAttr('src');
@@ -119,6 +121,7 @@ $(function(){
       $.each(returnarry, function(index, val) {
             $("#podcast .guest h3").eq(i).text(val.guest);
             $('#podcast .guest h4').eq(i).text('Episode #' + val.episode + ' - ' + val.date);
+            $("#podcast .guest h5").eq(i).html(val.links);
             $('#podcast .guest p').eq(i).html(val.description);
             $('#podcast .guest .photo img').eq(i).addClass('img-circle');
             $('#podcast .guest .photo img').eq(i).attr('src',val.image);
@@ -140,7 +143,8 @@ $(function(){
     $.each(data.podcasts, function(index, val) {
           $("#podcast .guest h3").eq(index).text(val.guest);
           $('#podcast .guest h4').eq(index).text('Episode #' + val.episode + ' - ' + val.date);
-          $('#podcast .guest p').eq(index).html(val.description);
+          $("#podcast .guest h5").eq(index).html(val.links);
+          $('#podcast .guest p').eq(index).html(val.description_raw);
           $('#podcast .guest .photo img').eq(index).addClass('img-circle');
           $('#podcast .guest .photo img').eq(index).attr('src',val.image);
           $('#podcast .guest .photo img').eq(index).attr('alt',val.alt);
@@ -148,7 +152,7 @@ $(function(){
           $('#podcast .guest .photo a').eq(index).show();
     });
       showMore();
-      paginationFunc(data.podcasts);
+      // paginationFunc(data.podcasts);  //work on pagination only if >9 results
     // } catch(err){
     //
     // }

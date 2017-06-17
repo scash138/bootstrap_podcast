@@ -26,6 +26,20 @@ hr {
   height: 1px;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
+a:hover {
+	color: white;
+}
+.fa {
+		padding: 5px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+		color: white;
+}
+.fa:hover{
+	text-decoration: none;
+}
 .page-divider img{
 	margin-left: auto;
 	margin-right: auto;
@@ -256,6 +270,9 @@ and (max-width: 768px) {
 #podcast .podcast-ajax {
 	min-height: 170px;
 }
+#podcast .podcast-ajax h5 {
+	padding: 5px 0;
+}
 .morecontent span {
     display: none;
 }
@@ -321,7 +338,7 @@ and (max-width: 767px) {
 
 }
 @media only screen and (max-width: 768px) {
-	h3, h4 {
+	h3, h4, h5 {
 		text-align: center;
 		font-weight: bold;
 	}
@@ -340,6 +357,12 @@ and (max-width: 767px) {
 /** Page -- Contact**/
 #contact .content {
 	min-height: 300px;
+}
+#contact a:hover, #contact a:visited{
+	text-decoration: none;
+	color: #EEC856;
+	outline-color: none;
+	outline-style: none;
 }
 /** Footer **/
 footer {
@@ -368,4 +391,14 @@ footer .navbar-nav>li a {
 	padding-bottom: 0;
 	text-decoration: underline;
 	color: #E6DEA7 !important;
+}
+@media only screen and (max-width: 768px) {
+	footer .socialmediaicons {
+		text-align: center;
+	}
+	footer .socialmediaicons .navbar {
+		text-align: center;
+		margin: 0;
+		padding-top: 15px;
+	}
 }

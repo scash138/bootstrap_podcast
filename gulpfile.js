@@ -4,6 +4,7 @@ var gulp = require('gulp'),
     browserify = require('gulp-browserify'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
+    convert = require('gulp-convert'),
     connect = require('gulp-webserver');
 
 var environment,
@@ -11,6 +12,7 @@ var environment,
     jsonSources,
     htmlSources,
     outputDir,
+    rssFeed,
     cssSources;
 
 environment = 'development';
@@ -27,6 +29,23 @@ cssSources = ['components/css/*.css'];
 jsonSources = ['components/js/*.json'];
 imageSources = ['components/images/'];
 audioSources = ['components/audio/*.mp3'];
+rssFeed = ['components/rss/*.rss'];
+
+
+
+// gulp.task('convertjson', function(){
+//   gulp.src(['components/js/podcasts.json'])
+//     .pipe(convert({
+//       from: 'json',
+//       to: 'xml'
+//      }))
+//     .pipe(gulp.dest('components/rss/'));
+// });
+gulp.task('rss', function() {
+  gulp.src(rssFeed)
+    .pipe(gulpif(environment === 'development', gulp.dest(outputDir + 'rss/')))
+});
+
 
 gulp.task('js', function() {
   gulp.src(jsSources)
@@ -70,6 +89,7 @@ gulp.task('watch', function() {
   gulp.watch(jsonSources, ['json']);
   gulp.watch(imageSources, ['images']);
   gulp.watch(audioSources, ['audio']);
+  gulp.watch(rssFeed, ['rss']);
 });
 
 gulp.task('connect', function() {
@@ -80,4 +100,4 @@ gulp.task('connect', function() {
     }));
 });
 
-gulp.task('run', ['js','html','css','json','images','audio','connect', 'watch']);
+gulp.task('run', ['js','html','css','json','images','audio','connect','rss','watch']);

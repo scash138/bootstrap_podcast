@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <atom:link href="http://feeds.soundcloud.com/users/soundcloud:users:311484639/sounds.rss" rel="self" type="application/rss+xml"/>
+    <atom:link href="http://feeds.soundcloud.com/users/soundcloud:users:311484639/sounds.rss?before=326104721" rel="next" type="application/rss+xml"/>
+    <title>Squirreling Podcast</title>
+    <link>http://squirrelingpodcast.com</link>
+    <pubDate>Tue, 06 Jun 2017 03:54:24 +0000</pubDate>
+    <lastBuildDate>Tue, 06 Jun 2017 03:54:24 +0000</lastBuildDate>
+    <ttl>60</ttl>
+    <language>en</language>
+    <copyright>All rights reserved</copyright>
+    <webMaster>feeds@soundcloud.com (SoundCloud Feeds)</webMaster>
+    <description>Podcast by Squirreling Podcast</description>
+    <itunes:subtitle>Podcast by Squirreling Podcast</itunes:subtitle>
+    <itunes:owner>
+      <itunes:name>Squirreling Podcast</itunes:name>
+      <itunes:email>feeds@soundcloud.com</itunes:email>
+    </itunes:owner>
+    <itunes:author>Squirreling Podcast</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="http://i1.sndcdn.com/avatars-000316787541-1kxpsr-original.jpg"/>
+    <image>
+      <url>http://i1.sndcdn.com/avatars-000316787541-1kxpsr-original.jpg</url>
+      <title>Squirreling Podcast</title>
+      <link>http://squirrelingpodcast.com</link>
+    </image>
+    <item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/326426713</guid>
+      <title>06 No Stayer</title>
+      <pubDate>Tue, 06 Jun 2017 03:54:24 +0000</pubDate>
+      <link>https://soundcloud.com/squirrelingpodcast/06-no-stayer</link>
+      <itunes:duration>00:03:28</itunes:duration>
+      <itunes:author>Squirreling Podcast</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>06 No Stayer by Squirreling Podcast</itunes:summary>
+      <itunes:subtitle>06 No Stayer by Squirreling Podcast</itunes:subtitle>
+      <description>06 No Stayer by Squirreling Podcast</description>
+      <enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/326426713-squirrelingpodcast-06-no-stayer.mp3" length="8333093"/>
+      <itunes:image href="http://i1.sndcdn.com/avatars-000316787541-1kxpsr-original.jpg"/>
+    </item>
+    <item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/326104721</guid>
+      <title>Episode 2 w/ Adam Bertholdi</title>
+      <pubDate>Mon, 05 Jun 2017 07:15:40 +0000</pubDate>
+      <link>https://soundcloud.com/squirrelingpodcast/squirreling-podcast-episode-2</link>
+      <itunes:duration>01:15:12</itunes:duration>
+      <itunes:author>Squirreling Podcast</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Episode 2 w/ Adam Bertholdi by Squirreling Podcast</itunes:summary>
+      <itunes:subtitle>Episode 2 w/ Adam Bertholdi by Squirreling Podcast</itunes:subtitle>
+      <description>Episode 2 w/ Adam Bertholdi by Squirreling Podcast</description>
+      <enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/326104721-squirrelingpodcast-squirreling-podcast-episode-2.mp3" length="108287082"/>
+      <itunes:image href="http://i1.sndcdn.com/avatars-000316787541-1kxpsr-original.jpg"/>
+    </item>
+  </channel>
+</rss>

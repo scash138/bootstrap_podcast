@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+    <channel>
+        <title><![CDATA[Squirreling Podcast]]></title>
+        <description><![CDATA[Podcast by Squirreling Podcast]]></description>
+        <link>http://squirrelingpodcast.com</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Sat, 17 Jun 2017 16:42:04 GMT</lastBuildDate>
+        <atom:link href="http://squirrelingpodcast.com/rss/squirrelingpodcast.rss" rel="self" type="application/rss+xml"/>
+        <pubDate>Tue, 06 Jun 2017 03:54:24 GMT</pubDate>
+        <copyright><![CDATA[2017 Squirreling Podcast]]></copyright>
+        <language><![CDATA[en]]></language>
+        <webMaster><![CDATA[squirrelingpodcast@gmail.com]]></webMaster>
+        <ttl>60</ttl>
+        <itunes:subtitle>A podcast about music and everything in between.</itunes:subtitle>
+        <itunes:author>Squirreling Podcast</itunes:author>
+        <itunes:explicit>yes</itunes:explicit>
+        <itunes:summary>Squirreling Podcast is dedicated to talking to local and national muscians about what they are up to and what they are listening to. Most of all he just wants to get to know other artists and talk about random shit.</itunes:summary>
+        <itunes:owner>
+            <itunes:name>Squirreling Podcast</itunes:name>
+            <itunes:email>squirrelingpodcast@gmail.com</itunes:email>
+        </itunes:owner>
+        <itunes:image href="http://squirrelingpodcast.com/images/itunes_logo.png"/>
+        <itunes:category text="Music">
+        </itunes:category>
+        <item>
+            <title><![CDATA[Episode 1]]></title>
+            <description><![CDATA[Britt Robisheaux is an audio engineer at Cloudland Recording Studio in Fort Worth, Texas and currently plays in Most Efficient Women and Theater Fire. He has previously played in Drug Mountain and Nouns Group. If you are in need of a great recording book some time with Britt.]]></description>
+            <link>http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-1.mp3</link>
+            <guid isPermaLink="true">http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-1.mp3</guid>
+            <pubDate>Fri, 26 May 2017 05:00:00 GMT</pubDate>
+            <enclosure url="http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-1.mp3" length="0" type="audio/mpeg"/>
+            <itunes:duration>1:51:44</itunes:duration>
+            <itunes:author>Squirreling Podcast</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:subtitle>Epidsode 1 w/ Britt Robisheaux</itunes:subtitle>
+        </item>
+        <item>
+            <title><![CDATA[Episode 2]]></title>
+            <description><![CDATA[Adam Bertholdi is a Denton, Tx based musician who plays in Cozy Hawks. He has previously played in Gazelles and A Faith Called Chaos. Cozy Hawks are currently looking for a drummer so if you are interested hit them up!]]></description>
+            <link>http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-2.mp3</link>
+            <guid isPermaLink="true">http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-2.mp3</guid>
+            <pubDate>Thu, 01 Jun 2017 05:00:00 GMT</pubDate>
+            <enclosure url="http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-2.mp3" length="0" type="audio/mpeg"/>
+            <itunes:duration>1:15:12</itunes:duration>
+            <itunes:author>Squirreling Podcast</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:subtitle>Epidsode 2 w/ Adam Bertholdi</itunes:subtitle>
+        </item>
+        <item>
+            <title><![CDATA[Episode 3]]></title>
+            <description><![CDATA[Javier Somoza is a Dallas, Tx based musician who plays in Weezing and Sleep Sweet. He is also a huge karaoke enthusiast. This dude is amaze balls.]]></description>
+            <link>http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-3.mp3</link>
+            <guid isPermaLink="true">http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-3.mp3</guid>
+            <pubDate>Sat, 17 Jun 2017 05:00:00 GMT</pubDate>
+            <enclosure url="http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-3.mp3" length="0" type="audio/mpeg"/>
+            <itunes:duration>1:44:16</itunes:duration>
+            <itunes:author>Squirreling Podcast</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:subtitle>Epidsode 3 w/ Javier Somoza</itunes:subtitle>
+        </item>
+    </channel>
+</rss>
