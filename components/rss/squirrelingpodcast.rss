@@ -4,7 +4,7 @@
         <description><![CDATA[Podcast by Squirreling Podcast]]></description>
         <link>http://squirrelingpodcast.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 17 Jun 2017 16:42:04 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 16 Jul 2017 20:22:35 GMT</lastBuildDate>
         <atom:link href="http://squirrelingpodcast.com/rss/squirrelingpodcast.rss" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 06 Jun 2017 03:54:24 GMT</pubDate>
         <copyright><![CDATA[2017 Squirreling Podcast]]></copyright>
@@ -32,7 +32,7 @@
             <itunes:duration>1:51:44</itunes:duration>
             <itunes:author>Squirreling Podcast</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
-            <itunes:subtitle>Epidsode 1 w/ Britt Robisheaux</itunes:subtitle>
+            <itunes:subtitle>Episode 1 w/ Britt Robisheaux</itunes:subtitle>
         </item>
         <item>
             <title><![CDATA[Episode 2]]></title>
@@ -44,7 +44,7 @@
             <itunes:duration>1:15:12</itunes:duration>
             <itunes:author>Squirreling Podcast</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
-            <itunes:subtitle>Epidsode 2 w/ Adam Bertholdi</itunes:subtitle>
+            <itunes:subtitle>Episode 2 w/ Adam Bertholdi</itunes:subtitle>
         </item>
         <item>
             <title><![CDATA[Episode 3]]></title>
@@ -56,7 +56,31 @@
             <itunes:duration>1:44:16</itunes:duration>
             <itunes:author>Squirreling Podcast</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
-            <itunes:subtitle>Epidsode 3 w/ Javier Somoza</itunes:subtitle>
+            <itunes:subtitle>Episode 3 w/ Javier Somoza</itunes:subtitle>
+        </item>
+        <item>
+            <title><![CDATA[Episode 4]]></title>
+            <description><![CDATA[JT Ward is a Dallas, Tx based musician who plays in West Windows and Death Stairs. I met JT by reaching out to him about playing some shows together and come to find out we listen to a lot of the same music. We connected from the get go and this dude is extremely talented. Check out his bands, they rule!]]></description>
+            <link>http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-4.mp3</link>
+            <guid isPermaLink="true">http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-4.mp3</guid>
+            <pubDate>Sun, 25 Jun 2017 05:00:00 GMT</pubDate>
+            <enclosure url="http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-4.mp3" length="0" type="audio/mpeg"/>
+            <itunes:duration>1:19:24</itunes:duration>
+            <itunes:author>Squirreling Podcast</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:subtitle>Episode 4 w/ JT Ward</itunes:subtitle>
+        </item>
+        <item>
+            <title><![CDATA[Episode 5]]></title>
+            <description><![CDATA[Tyrannosorceress is a Dallas, Tx based black metal band that has recently put out a record entitled 'Shattering Light's Creation'. I've known these guys for a while and not only are they super fun dudes but are also great fucking  musicians. We sat down to talk about life, music, and PINK FLOYD!]]></description>
+            <link>http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-5.mp3</link>
+            <guid isPermaLink="true">http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-5.mp3</guid>
+            <pubDate>Sat, 15 Jul 2017 05:00:00 GMT</pubDate>
+            <enclosure url="http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-5.mp3" length="0" type="audio/mpeg"/>
+            <itunes:duration>1:32:48</itunes:duration>
+            <itunes:author>Squirreling Podcast</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:subtitle>Episode 5 w/ Tyrannosorceress</itunes:subtitle>
         </item>
     </channel>
 </rss>

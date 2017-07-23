@@ -49,9 +49,6 @@ gulp.task('rss', function() {
 
 gulp.task('js', function() {
   gulp.src(jsSources)
-    .pipe(concat('script.js'))
-    .pipe(browserify())
-    .pipe(gulpif(environment === 'production', uglify()))
     .pipe(gulp.dest(outputDir + 'js'))
 });
 

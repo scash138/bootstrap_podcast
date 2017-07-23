@@ -13,6 +13,7 @@
   <meta property="og:type" content="website">
   <meta property="og:image" content="http://squirrelingpodcast.com.s3-website-us-west-2.amazonaws.com/images/face_logo_sm.png">
   <meta property="og:image:width" content="411">
+  <meta property="og:description" content="The home of the Squirreling Podcast where we discuss music and all sorts of nonsense.">
   <meta property="og:image:height" content="121">
   <meta name="description" content="The home of the Squirreling Podcast where we discuss music and all sorts of nonsense.">
   <meta name="author" content="Squirreling">
@@ -22,11 +23,13 @@
   <link rel="stylesheet" type="text/css"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <script src="js/prefixfree.min.js"></script>
   <meta name="google-site-verification" content="thI677Up5Fvw6YE8oIMD6yl-w1SgWG-yo_qGWRJMNj8" />
 </head>
 
 <body>
+
+<div class="wrapper">
+
 
 <header>
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -70,9 +73,16 @@
       </div> <!-- row -->
     </div><!-- content container -->
   </div><!-- about page -->
-<hr></hr>
-  <div class="carousel fade" data-ride="carousel" id="main-carousel">
-    <ol class="carousel-indicators"></ol>
+
+
+
+  <div  id="main-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#main-carousel" data-slide-to="1"></li>
+      <li data-target="#main-carousel" data-slide-to="2"></li>
+      <li data-target="#main-carousel" data-slide-to="3"></li>
+    </ol>
     <div class="carousel-inner fullheight">
       <div class="item active"><img src="images/1.jpg" alt="Episode1"></div>
       <div class="item"><img src="images/2.jpg" alt="Aftermath"></div>
@@ -87,6 +97,7 @@
     </a>
   </div><!-- carousel slide #main-slide-->
 <hr></hr>
+<!-- Podcast -->
   <div class="page" id="podcast">
     <div class="content container-fluid">
       <h2 id="podcast-header">Podcasts</h2>
@@ -103,6 +114,7 @@
           </div>
         </form>
       </div>
+<!-- Podcast Guests -->
       <div class="podcast-ajax">
       <div class="row row-1">
 
@@ -119,7 +131,6 @@
             </div><!-- info -->
           </div><!-- inner row -->
         </div> <!-- guest -->
-
         <div class="guest col-lg-4">
           <div class="row">
             <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">
@@ -244,29 +255,29 @@
       </div><!-- container next-page -->
     </div><!-- container #podcast -->
   </div><!-- podcast page -->
-<hr></hr>
-<div class="page" id="store">
-  <div class="content container-fluid">
-    <h2 id="store-header">Store</h2>
-    <div class="page-divider container">
-      <img class="page-divider-image" src="images/divider_p.png" alt="home_br">
+  <hr></hr>
+  <div class="page" id="store">
+    <div class="content container-fluid">
+      <h2 id="store-header">Store</h2>
+      <div class="page-divider container">
+        <img class="page-divider-image" src="images/divider_p.png" alt="home_br">
+      </div>
+      <h3 class="text-center">Coming Soon...</h3>
     </div>
-    <h3 class="text-center">Coming Soon...</h3>
   </div>
-</div>
-<hr></hr>
-<div class="page" id="contact">
-  <div class="content container text-center">
-    <h2 id="store-header">Contact</h2>
-    <div class="page-divider">
-      <img class="page-divider-image" src="images/divider_p.png" alt="home_br">
+  <hr></hr>
+  <div class="page" id="contact">
+    <div class="content container text-center">
+      <h2 id="store-header">Contact</h2>
+      <div class="page-divider">
+        <img class="page-divider-image" src="images/divider_p.png" alt="home_br">
+      </div>
+      <p>This podcast is recorded in North Texas and if you are an artist or in a band that are passing through feel free to contact us to be on the podcast.</p><br></br>
+      <p>For booking contact:</p>
+      <h3 class="text-uppercase"><a href="mailto:squirrelingpodcast@gmail.com">squirrelingpodcast</a></h3>
     </div>
-    <p>This podcast is recorded in North Texas and if you are an artist or in a band that are passing through feel free to contact us to be on the podcast.</p><br></br>
-    <p>For booking contact:</p>
-    <h3 class="text-uppercase"><a href="mailto:squirrelingpodcast@gmail.com">squirrelingpodcast</a></h3>
   </div>
-</div>
-</div><!-- main -->
+  </div><!-- main -->
 <hr></hr>
 <footer>
   <div class="content container-fluid">
@@ -288,8 +299,19 @@
   </div><!-- content container -->
 </footer>
 
+</div>
+<script src="js/prefixfree.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-<script src="js/script.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script src="js/jquery.twbsPagination.min.js"></script>
+<script src="js/loader.js"></script>
+<script src="js/carousel.js"></script>
+<script src="js/convertimage.js"></script>
+<script src="js/scrollspy.js"></script>
+<script src="js/ajax.js"></script>
+
+
+  <!-- <script src="js/script.js"></script> -->
+
 </body>
 </html>

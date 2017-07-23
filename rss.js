@@ -51,7 +51,7 @@ for (var i = 0; i < json.podcasts.length; i++) {
       {'itunes:duration': json.podcasts[i].duration},
       {'itunes:author': 'Squirreling Podcast'},
       {'itunes:explicit': 'yes'},
-      {'itunes:subtitle': 'Epidsode ' + json.podcasts[i].episode + ' w/ ' + json.podcasts[i].guest}
+      {'itunes:subtitle': 'Episode ' + json.podcasts[i].episode + ' w/ ' + json.podcasts[i].guest}
     ]
       // {'itunes:image': {
       //   _attr: {
