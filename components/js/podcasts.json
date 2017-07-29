@@ -63,6 +63,19 @@
       "alt": "Tyrannosorceress_Sterling",
       "audiofile": "audio/Squirreling-Podcast-Episode-5.mp3",
       "duration": "1:32:48"
+    },
+    {
+      "episode": "6",
+      "date" : "07/25/2017",
+      "guest": "Emil Rapstine",
+      "band": "The Angelus",
+      "links":"<a href='http://theangelusband.com/' target='blank_'>The Angelus</a>",
+      "description": "<a href='http://theangelusband.com/' target='blank_'>The Angelus</a> is a Dallas, Tx based group that has recently put out a record entitled 'There Will Be No Peace'. I got the chance to meet and site down with Emil and it was a great pleasure to have him on the podcast. Not only is this dude amazing but his band is fantastic.",
+      "description_raw": "The Angelus is a Dallas, Tx based group that has recently put out a record entitled 'There Will Be No Peace'. I got the chance to meet and site down with Emil and it was a great pleasure to have him on the podcast. Not only is this dude amazing but his band is fantastic.",
+      "image": "images/guest_images/Emil_Sterling.jpg",
+      "alt": "Emil_Sterling",
+      "audiofile": "audio/Squirreling-Podcast-Episode-6.mp3",
+      "duration": "1:54:06"
     }
   ]
 }
