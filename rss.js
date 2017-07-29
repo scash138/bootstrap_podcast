@@ -6,20 +6,24 @@ var feed = new RSS({
     title: 'Squirreling Podcast',
     pubDate: 'Tue, 06 Jun 2017 03:54:24 +0000',
     lastBuildDate: 'Tue, 06 Jun 2017 03:54:24 +0000',
-    ttl: '60',
+    link: 'http://squirrelingpodcast.com',
+    docs: 'http://squirrelingpodcast.com',
     language: 'en',
     webMaster: 'squirrelingpodcast@gmail.com',
     description: 'Podcast by Squirreling Podcast',
     site_url: 'http://squirrelingpodcast.com',
-    copyright: '2017 Squirreling Podcast',
+    copyright: 'Copyright © Squirreling Podcast',
     custom_namespaces: {
       'itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd'
     },
     custom_elements: [
-      {'itunes:subtitle': 'A podcast about music and everything in between.'},
+      {'generator': 'Squirreling Engine'},
+      {'managingEditor' : 'squirrelingpodcast@gmail.com'},
+      {'itunes:subtitle': 'Squirreling weekly podcast..'},
+      {'itunes:keywords': 'music,squirreling,talking,texas'},
       {'itunes:author': 'Squirreling Podcast'},
       {'itunes:explicit': 'yes'},
-      {'itunes:summary': 'Squirreling Podcast is dedicated to talking to local and national muscians about what they are up to and what they are listening to. Most of all he just wants to get to know other artists and talk about random shit.'},
+      {'itunes:summary': 'The podcast of musician Squirreling..'},
       {'itunes:owner': [
         {'itunes:name': 'Squirreling Podcast'},
         {'itunes:email': 'squirrelingpodcast@gmail.com'}
@@ -65,4 +69,4 @@ for (var i = 0; i < json.podcasts.length; i++) {
 
 var fileNm = feed.xml({indent: true});
 
-fs.writeFile('components/rss/squirrelingpodcast.rss', fileNm);
+fs.writeFile('components/rss/test_mine.rss', fileNm);
