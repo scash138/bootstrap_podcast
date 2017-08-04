@@ -17,7 +17,16 @@ var feed = new RSS({
       'itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd'
     },
     custom_elements: [
+      {'image': [
+
+          {'url': 'http://squirrelingpodcast.com/images/itunes_logo.jpg'},
+          {'title': 'Squirreling Podcast'},
+          {'link': 'http://squirrelingpodcast.com'}
+
+      ]},
       {'generator': 'Squirreling Engine'},
+      {'itunes:type': 'episodic'},
+      {'itunes:new-feed-url': 'http://squirrelingpodcast.com/rss/squirrelingpodcast.rss'},
       {'managingEditor' : 'squirrelingpodcast@gmail.com'},
       {'itunes:subtitle': 'Squirreling weekly podcast..'},
       {'itunes:keywords': 'music,squirreling,talking,texas'},
@@ -30,14 +39,19 @@ var feed = new RSS({
       ]},
       {'itunes:image': {
         _attr: {
-          href: 'http://squirrelingpodcast.com/images/itunes_logo.png'
+          href: 'http://squirrelingpodcast.com/images/itunes_logo.jpg'
         }
       }},
       {'itunes:category': [
         {_attr: {
           text: 'Music'
         }}
-      ]}
+      ]},
+      {'itunes:category': [
+        {_attr: {
+          text: 'Comedy'
+        }}
+      ]},
     ]
 });
 
@@ -46,16 +60,22 @@ var json = require('./components/js/podcasts.json');
 
 for (var i = 0; i < json.podcasts.length; i++) {
   feed.item({
-      title:  'Episode ' + json.podcasts[i].episode,
+      title:  'Episode #' + json.podcasts[i].episode + ' - ' + json.podcasts[i].guest,
       description: json.podcasts[i].description_raw,
+      guid: json.podcasts[i].guid,
       url: 'http://squirrelingpodcast.com/' + json.podcasts[i].audiofile,
       date: json.podcasts[i].date,
-      enclosure: {url:'http://squirrelingpodcast.com/' + json.podcasts[i].audiofile},
+      enclosure: {url:'http://squirrelingpodcast.com/' + json.podcasts[i].audiofile,
+      size: json.podcasts[i].enclore_length},
       custom_elements: [
+      {'itunes:image': 'http://squirrelingpodcast.com/images/itunes_small.jpg'},
+      {'itunes:subtitle': json.podcasts[i].description_subtitle},
+      {'content:encoded': json.podcasts[i].description_subtitle},
       {'itunes:duration': json.podcasts[i].duration},
       {'itunes:author': 'Squirreling Podcast'},
-      {'itunes:explicit': 'yes'},
-      {'itunes:subtitle': 'Episode ' + json.podcasts[i].episode + ' w/ ' + json.podcasts[i].guest}
+      {'itunes:explicit': 'no'},
+      {'itunes:episodeType': 'full'},
+      {'itunes:keywords': json.podcasts[i].keywords}
     ]
       // {'itunes:image': {
       //   _attr: {
@@ -69,4 +89,4 @@ for (var i = 0; i < json.podcasts.length; i++) {
 
 var fileNm = feed.xml({indent: true});
 
-fs.writeFile('components/rss/test_mine.rss', fileNm);
+fs.writeFile('components/rss/squirrelingpodcast.rss', fileNm);

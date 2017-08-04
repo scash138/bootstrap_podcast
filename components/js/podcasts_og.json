@@ -1,0 +1,81 @@
+{
+  "podcasts":[{
+      "episode": "1",
+      "date" : "05/26/2017",
+      "guest": "Britt Robisheaux",
+      "band": "Most Efficient Women",
+      "links":"<a href='http://www.dreamyliferecords.com' target='blank_'>Cloudland Recording Studio</a><br><a href='https://mostefficientwomen.bandcamp.com' target='blank_'>Most Efficient Women</a>",
+      "description": "Britt Robisheaux is an audio engineer at <a href='http://www.dreamyliferecords.com' target='blank_'>Cloudland Recording Studio</a> in Fort Worth, Texas and currently plays in <a href='https://mostefficientwomen.bandcamp.com' target='blank_'>Most Efficient Women</a> and Theater Fire. He has previously played in Drug Mountain and Nouns Group. If you are in need of a great recording book some time with Britt.",
+      "description_raw": "Britt Robisheaux is an audio engineer at Cloudland Recording Studio in Fort Worth, Texas and currently plays in Most Efficient Women and Theater Fire. He has previously played in Drug Mountain and Nouns Group. If you are in need of a great recording book some time with Britt.",
+      "image": "images/guest_images/Britt_Sterling.jpg",
+      "alt": "Britt_Robisheaux",
+      "audiofile": "audio/Squirreling-Podcast-Episode-1.mp3",
+      "duration": "1:51:44"
+    },
+    {
+      "episode": "2",
+      "date" : "06/01/2017",
+      "guest": "Adam Bertholdi",
+      "band": "Cozy Hawks",
+      "links":"<a href='https://www.facebook.com/cozyhawksmusic/' target='blank_'>Cozy Hawks</a>",
+      "description": "Adam Bertholdi is a Denton, Tx based musician who plays in <a href='https://www.facebook.com/cozyhawksmusic/' target='blank_'>Cozy Hawks</a>. He has previously played in Gazelles and A Faith Called Chaos. Cozy Hawks are currently looking for a drummer so if you are interested hit them up!",
+      "description_raw": "Adam Bertholdi is a Denton, Tx based musician who plays in Cozy Hawks. He has previously played in Gazelles and A Faith Called Chaos. Cozy Hawks are currently looking for a drummer so if you are interested hit them up!",
+      "image": "images/guest_images/Adam_Sterling.jpg",
+      "alt": "Adam_Bertholdi",
+      "audiofile": "audio/Squirreling-Podcast-Episode-2.mp3",
+      "duration": "1:15:12"
+    },
+    {
+      "episode": "3",
+      "date" : "06/17/2017",
+      "guest": "Javier Somoza",
+      "band": "Weezing, Sleep Sweet",
+      "links":"<a href='https://www.facebook.com/weezingband/' target='blank_'>Weezing</a><br><a href='https://www.sleepsweet.bandcamp.com target='blank_'>Sleep Sweet</a>",
+      "description": "Javier Somoza is a Dallas, Tx based musician who plays in <a href='https://www.facebook.com/weezingband/' target='blank_'>Weezing</a> and <a href='https://www.sleepsweet.bandcamp.com' target='blank_'>Sleep Sweet</a>. He is also a huge karaoke enthusiast. This dude is amaze balls.",
+      "description_raw": "Javier Somoza is a Dallas, Tx based musician who plays in Weezing and Sleep Sweet. He is also a huge karaoke enthusiast. This dude is amaze balls.",
+      "image": "images/guest_images/Javier.jpg",
+      "alt": "Javier_Somoza",
+      "audiofile": "audio/Squirreling-Podcast-Episode-3.mp3",
+      "duration": "1:44:16"
+    },
+    {
+      "episode": "4",
+      "date" : "06/25/2017",
+      "guest": "JT Ward",
+      "band": "West Windows, Death Stairs",
+      "links":"<a href='https://thewestwindows.bandcamp.com/' target='blank_'>West Windows</a><br><a href='https://deathstairs1.bandcamp.com/' target='blank_'>Death Stairs</a>",
+      "description": "JT Ward is a Dallas, Tx based musician who plays in <a href='https://thewestwindows.bandcamp.com/' target='blank_'>West Windows</a> and <a href='https://deathstairs1.bandcamp.com/' target='blank_'>Death Stairs</a>. I met JT by reaching out to him about playing some shows together and come to find out we listen to a lot of the same music. We connected from the get go and this dude is extremely talented. Check out his bands, they rule!",
+      "description_raw": "JT Ward is a Dallas, Tx based musician who plays in West Windows and Death Stairs. I met JT by reaching out to him about playing some shows together and come to find out we listen to a lot of the same music. We connected from the get go and this dude is extremely talented. Check out his bands, they rule!",
+      "image": "images/guest_images/JT_Sterling.jpg",
+      "alt": "JT_Ward",
+      "audiofile": "audio/Squirreling-Podcast-Episode-4.mp3",
+      "duration": "1:19:24"
+    },
+    {
+      "episode": "5",
+      "date" : "07/15/2017",
+      "guest": "Tyrannosorceress",
+      "band": "Tyrannosorceress",
+      "links":"<a href='http://tyrannosorceress.com/' target='blank_'>Tyrannosorceress</a>",
+      "description": "<a href='http://tyrannosorceress.com/' target='blank_'>Tyrannosorceress</a> is a Dallas, Tx based black metal band that has recently put out a record entitled 'Shattering Light's Creation'. I've known these guys for a while and not only are they super fun dudes but are also great fucking  musicians. We sat down to talk about life, music, and PINK FLOYD!",
+      "description_raw": "Tyrannosorceress is a Dallas, Tx based black metal band that has recently put out a record entitled 'Shattering Light's Creation'. I've known these guys for a while and not only are they super fun dudes but are also great fucking  musicians. We sat down to talk about life, music, and PINK FLOYD!",
+      "image": "images/guest_images/Tyrannosorceress_Sterling.jpg",
+      "alt": "Tyrannosorceress_Sterling",
+      "audiofile": "audio/Squirreling-Podcast-Episode-5.mp3",
+      "duration": "1:32:48"
+    },
+    {
+      "episode": "6",
+      "date" : "07/25/2017",
+      "guest": "Emil Rapstine",
+      "band": "The Angelus",
+      "links":"<a href='http://theangelusband.com/' target='blank_'>The Angelus</a>",
+      "description": "<a href='http://theangelusband.com/' target='blank_'>The Angelus</a> is a Dallas, Tx based group that has recently put out a record entitled 'There Will Be No Peace'. I got the chance to meet and site down with Emil and it was a great pleasure to have him on the podcast. Not only is this dude amazing but his band is fantastic.",
+      "description_raw": "The Angelus is a Dallas, Tx based group that has recently put out a record entitled 'There Will Be No Peace'. I got the chance to meet and site down with Emil and it was a great pleasure to have him on the podcast. Not only is this dude amazing but his band is fantastic.",
+      "image": "images/guest_images/Emil_Sterling.jpg",
+      "alt": "Emil_Sterling",
+      "audiofile": "audio/Squirreling-Podcast-Episode-6.mp3",
+      "duration": "1:54:06"
+    }
+  ]
+}
