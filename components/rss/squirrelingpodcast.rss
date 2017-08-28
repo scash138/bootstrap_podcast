@@ -4,7 +4,7 @@
         <description><![CDATA[Podcast by Squirreling Podcast]]></description>
         <link>http://squirrelingpodcast.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 04 Aug 2017 00:02:47 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 20 Aug 2017 20:57:28 GMT</lastBuildDate>
         <atom:link href="http://squirrelingpodcast.com/rss/squirrelingpodcast.rss" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 06 Jun 2017 03:54:24 GMT</pubDate>
         <copyright><![CDATA[Copyright © Squirreling Podcast]]></copyright>
@@ -34,6 +34,38 @@
         </itunes:category>
         <itunes:category text="Comedy">
         </itunes:category>
+        <item>
+            <title><![CDATA[Episode #9 - Elisa Williams]]></title>
+            <description><![CDATA[Elisa is one of my wife's best friends. She runs neon cart which is an online vintage/thrift store based out of Austin, Texas. In this episode we just talk and have a fun time. My wife also joins in.]]></description>
+            <link>http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-9.mp3</link>
+            <guid isPermaLink="false">20170820</guid>
+            <pubDate>Sun, 20 Aug 2017 05:00:00 GMT</pubDate>
+            <enclosure url="http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-9.mp3" length="80506463" type="audio/mpeg"/>
+            <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
+            <itunes:subtitle>Elisa is one of my wifes best friends. She runs neon cart which is an online vintage/thrift store based out of Austin, Texas. In this episode we just talk and have a fun time. My wife also joins in.</itunes:subtitle>
+            <content:encoded>Elisa is one of my wifes best friends. She runs neon cart which is an online vintage/thrift store based out of Austin, Texas. In this episode we just talk and have a fun time. My wife also joins in.</content:encoded>
+            <itunes:duration>2:11:37</itunes:duration>
+            <itunes:author>Squirreling Podcast</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:keywords>podcast,squirreling,thrift,neon cart</itunes:keywords>
+        </item>
+        <item>
+            <title><![CDATA[Episode #8 - Stealers]]></title>
+            <description><![CDATA[Chris and Justin from Stealers dropped by on this episode. This was a super fun podcast and we got the chance to hear a song from their new album 'Thin Ice'. They are playing a couple of album release shows coming up this month in August. Check them out and pick up a copy!]]></description>
+            <link>http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-8.mp3</link>
+            <guid isPermaLink="false">20170810</guid>
+            <pubDate>Thu, 10 Aug 2017 05:00:00 GMT</pubDate>
+            <enclosure url="http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-8.mp3" length="67640893" type="audio/mpeg"/>
+            <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
+            <itunes:subtitle>Chris and Justin from Stealers dropped by on this episode. This was a super fun podcast and we got the chance to hear a song from their new album Thin Ice. They are playing a couple of album release shows coming up this month in August. Check them out and pick up a copy!</itunes:subtitle>
+            <content:encoded>Chris and Justin from Stealers dropped by on this episode. This was a super fun podcast and we got the chance to hear a song from their new album Thin Ice. They are playing a couple of album release shows coming up this month in August. Check them out and pick up a copy!</content:encoded>
+            <itunes:duration>1:49:30</itunes:duration>
+            <itunes:author>Squirreling Podcast</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:keywords>podcast,squirreling,music,stealers</itunes:keywords>
+        </item>
         <item>
             <title><![CDATA[Episode #7 - Riley Gale]]></title>
             <description><![CDATA[I've known Riley for a long time and it was great catching up and talking about comics, touring, and tons of other stuff. He plays in Power Trip from Dallas, Tx and they have recently put out a record entitled 'Nightmare Logic'. This dude is solid and I'm glad he's doing it big because he deserves it.]]></description>
