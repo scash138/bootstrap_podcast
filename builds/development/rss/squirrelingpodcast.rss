@@ -4,7 +4,7 @@
         <description><![CDATA[Podcast by Squirreling Podcast]]></description>
         <link>http://squirrelingpodcast.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 20 Aug 2017 20:57:28 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Sep 2017 23:34:13 GMT</lastBuildDate>
         <atom:link href="http://squirrelingpodcast.com/rss/squirrelingpodcast.rss" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 06 Jun 2017 03:54:24 GMT</pubDate>
         <copyright><![CDATA[Copyright © Squirreling Podcast]]></copyright>
@@ -34,6 +34,38 @@
         </itunes:category>
         <itunes:category text="Comedy">
         </itunes:category>
+        <item>
+            <title><![CDATA[Episode #11 - Eric Grubbs]]></title>
+            <description><![CDATA[Eric is a writer, musician, author, traffic reporter, awesome dude. He has written two books, Post: A Look at the Influence of Post Hardcore and When We Were the Kids. I had an awesome time getting to know Eric and talk about all sorts of different things. He just played his first show in Caved Mountains and hopefully there will be more. Great time with a great dude.]]></description>
+            <link>http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-11.mp3</link>
+            <guid isPermaLink="false">20170926</guid>
+            <pubDate>Tue, 26 Sep 2017 05:00:00 GMT</pubDate>
+            <enclosure url="http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-11.mp3" length="81069089" type="audio/mpeg"/>
+            <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
+            <itunes:subtitle>Eric is a writer, musician, author, traffic reporter, awesome dude. He has written two books, Post: A Look at the Influence of Post Hardcore and When We Were the Kids. I had an awesome time getting to know Eric and talk about all sorts of different things. He just played his first show in Caved Mountains and hopefully there will be more. Great time with a great dude.</itunes:subtitle>
+            <content:encoded>Eric is a writer, musician, author, traffic reporter, awesome dude. He has written two books, Post: A Look at the Influence of Post Hardcore and When We Were the Kids. I had an awesome time getting to know Eric and talk about all sorts of different things. He just played his first show in Caved Mountains and hopefully there will be more. Great time with a great dude.</content:encoded>
+            <itunes:duration>1:55:10</itunes:duration>
+            <itunes:author>Squirreling Podcast</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:keywords>podcast,squirreling,dallas observer,caved mountains</itunes:keywords>
+        </item>
+        <item>
+            <title><![CDATA[Episode #10 - Sean and Nan Kirkpatrick]]></title>
+            <description><![CDATA[Sean and Nan of Little Beards stopped by in this episode. I got the chance to talk to them about their upcoming tour, ZZ top, and received a surprise delivery in the middle of the podcast. I have always loved Sean's musicianship and it was a great pleasure getting to chat with his wife Nan. True staples of Dallas music.]]></description>
+            <link>http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-10.mp3</link>
+            <guid isPermaLink="false">20170906</guid>
+            <pubDate>Wed, 06 Sep 2017 05:00:00 GMT</pubDate>
+            <enclosure url="http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-10.mp3" length="45154112" type="audio/mpeg"/>
+            <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
+            <itunes:subtitle>Sean and Nan of Little Beards stopped by in this episode. I got the chance to talk to them about their upcoming tour, ZZ top, and received a surprise delivery in the middle of the podcast. I have always loved Seans musicianship and it was a great pleasure getting to chat with his wife Nan. True staples of Dallas music.</itunes:subtitle>
+            <content:encoded>Sean and Nan of Little Beards stopped by in this episode. I got the chance to talk to them about their upcoming tour, ZZ top, and received a surprise delivery in the middle of the podcast. I have always loved Seans musicianship and it was a great pleasure getting to chat with his wife Nan. True staples of Dallas music.</content:encoded>
+            <itunes:duration>1:17:44</itunes:duration>
+            <itunes:author>Squirreling Podcast</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:keywords>podcast,squirreling,little beards,nervous curtains</itunes:keywords>
+        </item>
         <item>
             <title><![CDATA[Episode #9 - Elisa Williams]]></title>
             <description><![CDATA[Elisa is one of my wife's best friends. She runs neon cart which is an online vintage/thrift store based out of Austin, Texas. In this episode we just talk and have a fun time. My wife also joins in.]]></description>

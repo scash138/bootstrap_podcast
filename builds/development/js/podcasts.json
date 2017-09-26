@@ -1,5 +1,37 @@
 {
   "podcasts":[{
+      "episode": "11",
+      "date" : "09/26/2017",
+      "guest": "Eric Grubbs",
+      "band": "Caved Mountains, Dallas Observer",
+      "links":"<a href='https://twitter.com/caved_mountains' target='blank_'>Caved Mountains</a><br><a href='http://www.dallasobserver.com/authors/eric-grubbs-6372182' target='blank_'>Dallas Observer</a>",
+      "description": "Eric is a writer, musician, author, traffic reporter, awesome dude. He has written two books, Post: A Look at the Influence of Post Hardcore and When We Were the Kids. I had an awesome time getting to know Eric and talk about all sorts of different things. He just played his first show in Caved Mountains and hopefully there will be more. Great time with a great dude.",
+      "description_raw": "Eric is a writer, musician, author, traffic reporter, awesome dude. He has written two books, Post: A Look at the Influence of Post Hardcore and When We Were the Kids. I had an awesome time getting to know Eric and talk about all sorts of different things. He just played his first show in Caved Mountains and hopefully there will be more. Great time with a great dude.",
+      "description_subtitle": "Eric is a writer, musician, author, traffic reporter, awesome dude. He has written two books, Post: A Look at the Influence of Post Hardcore and When We Were the Kids. I had an awesome time getting to know Eric and talk about all sorts of different things. He just played his first show in Caved Mountains and hopefully there will be more. Great time with a great dude.",
+      "image": "images/guest_images/Eric_Sterling.jpg",
+      "alt": "Eric_Sterling",
+      "audiofile": "audio/Squirreling-Podcast-Episode-11.mp3",
+      "enclore_length": "81069089",
+      "guid": "20170926",
+      "keywords": "podcast,squirreling,dallas observer,caved mountains",
+      "duration": "1:55:10"
+    },{
+      "episode": "10",
+      "date" : "09/06/2017",
+      "guest": "Sean and Nan Kirkpatrick",
+      "band": "Nervous Curtains, Little Beards",
+      "links":"<a href='https://nervouscurtains.bandcamp.com/' target='blank_'>Nervous Curtains</a><br><a href='https://pourlecorpsrecords.bandcamp.com/album/midnight-in-the-garden-of-chaotic-neutral' target='blank_'>Little Beards</a>",
+      "description": "Sean and Nan of Little Beards stopped by in this episode. I got the chance to talk to them about their upcoming tour, ZZ top, and received a surprise delivery in the middle of the podcast. I have always loved Sean's musicianship and it was a great pleasure getting to chat with his wife Nan. True staples of Dallas music.",
+      "description_raw": "Sean and Nan of Little Beards stopped by in this episode. I got the chance to talk to them about their upcoming tour, ZZ top, and received a surprise delivery in the middle of the podcast. I have always loved Sean's musicianship and it was a great pleasure getting to chat with his wife Nan. True staples of Dallas music.",
+      "description_subtitle": "Sean and Nan of Little Beards stopped by in this episode. I got the chance to talk to them about their upcoming tour, ZZ top, and received a surprise delivery in the middle of the podcast. I have always loved Seans musicianship and it was a great pleasure getting to chat with his wife Nan. True staples of Dallas music.",
+      "image": "images/guest_images/sean_nan.jpg",
+      "alt": "Sean_Nan",
+      "audiofile": "audio/Squirreling-Podcast-Episode-10.mp3",
+      "enclore_length": "45154112",
+      "guid": "20170906",
+      "keywords": "podcast,squirreling,little beards,nervous curtains",
+      "duration": "1:17:44"
+    },{
       "episode": "9",
       "date" : "08/20/2017",
       "guest": "Elisa Williams",

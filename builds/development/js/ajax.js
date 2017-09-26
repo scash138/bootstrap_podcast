@@ -138,7 +138,7 @@ $(function(){
 
   //get json
   $.getJSON('js/podcasts.json', function(data) {
-    // try {
+    try {
     $.each(data.podcasts, function(index, val) {
           $("#podcast .guest h3").eq(index).text(val.guest);
           $('#podcast .guest h4').eq(index).text('Episode #' + val.episode + ' - ' + val.date);
@@ -151,10 +151,10 @@ $(function(){
           $('#podcast .guest .photo a').eq(index).show();
     });
       showMore();
-      // paginationFunc(data.podcasts);  //work on pagination only if >9 results
-    // } catch(err){
+      paginationFunc(data.podcasts);
+     } catch(err){
     //
-    // }
+    }
   })
   .done(function(data) {
     hideRows();

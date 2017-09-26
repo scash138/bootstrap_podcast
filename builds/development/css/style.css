@@ -381,6 +381,18 @@ and (max-width: 768px) {
 	}
 }
 /** Page -- Podcast**/
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+	font-size: 20%;
+
+}
+
 #podcast {
 	/*background-color: #E4D29D;*/
 	/*background-image: linear-gradient(to bottom, #E4D29D, #CDAE50);*/
@@ -393,6 +405,19 @@ and (max-width: 768px) {
 }
 #podcast .podcast-ajax h5 {
 	padding: 5px 0;
+}
+#podcast .podcast-icon {
+	max-height: 50px;
+	display: inline-block;
+	color: white;
+	/*text-decoration: underline;*/
+	/*padding-bottom: 6px;*/
+}
+.test-photo {
+	background-color: pink;
+}
+#podcast .podcast-icon a:hover {
+	color: #EEC856 !important;
 }
 .morecontent span {
     display: none;
