@@ -1,5 +1,21 @@
 {
   "podcasts":[{
+      "episode": "12",
+      "date" : "10/03/2017",
+      "guest": "Oliver Sheppard",
+      "band": "Author, Wardance Dallas",
+      "links":"<a href='https://www.amazon.com/Destruction-Text-I-Oliver-Sheppard/dp/1974318958/ref=sr_1_1?s=books&ie=UTF8&qid=1507063971&sr=1-1' target='blank_'>Destruction: Text I</a><br><a href='https://www.facebook.com/wardancedfw/' target='blank_'>Wardance</a>",
+      "description": "Oliver stopped by and I have to say he is one of the nicest dudes I've ever met. He is an author, poet, music journalist, and throws shows. This dude is fascinating and I had the honor to get to find out more about him. He just released his first book Destruction: Text I. Peep that amazon link!",
+      "description_raw": "Oliver stopped by and I have to say he is one of the nicest dudes I've ever met. He is an author, poet, music journalist, and throws shows. This dude is fascinating and I had the honor to get to find out more about him. He just released his first book Destruction: Text I. Peep that amazon link!",
+      "description_subtitle": "Oliver stopped by and I have to say he is one of the nicest dudes I've ever met. He is an author, poet, music journalist, and throws shows. This dude is fascinating and I had the honor to get to find out more about him. He just released his first book Destruction: Text I. Peep that amazon link!",
+      "image": "images/guest_images/Eric_Sterling.jpg",
+      "alt": "Oliver_Sterling",
+      "audiofile": "audio/Squirreling-Podcast-Episode-12.mp3",
+      "enclore_length": "81069089",
+      "guid": "20171003",
+      "keywords": "podcast,squirreling,destructiontextI,wardance,author",
+      "duration": "1:55:10"
+    },{
       "episode": "11",
       "date" : "09/26/2017",
       "guest": "Eric Grubbs",
