@@ -63,9 +63,9 @@ for (var i = 0; i < json.podcasts.length; i++) {
       title:  'Episode #' + json.podcasts[i].episode + ' - ' + json.podcasts[i].guest,
       description: json.podcasts[i].description_raw,
       guid: json.podcasts[i].guid,
-      url: json.podcasts[i].audiofile,
+      url: json.podcasts[i].soundcloudfile,
       date: json.podcasts[i].date,
-      enclosure: {url:json.podcasts[i].audiofile,
+      enclosure: {url:json.podcasts[i].soundcloudfile,
       size: json.podcasts[i].enclore_length,
       type: "audio/mpeg"},
       custom_elements: [
