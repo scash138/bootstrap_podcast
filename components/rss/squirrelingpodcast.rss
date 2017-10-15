@@ -4,7 +4,7 @@
         <description><![CDATA[Podcast by Squirreling Podcast]]></description>
         <link>http://squirrelingpodcast.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 04 Oct 2017 15:24:01 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Oct 2017 05:05:40 GMT</lastBuildDate>
         <atom:link href="http://squirrelingpodcast.com/rss/squirrelingpodcast.rss" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 06 Jun 2017 03:54:24 GMT</pubDate>
         <copyright><![CDATA[Copyright © Squirreling Podcast]]></copyright>
@@ -34,6 +34,22 @@
         </itunes:category>
         <itunes:category text="Comedy">
         </itunes:category>
+        <item>
+            <title><![CDATA[Episode #13 - JT Ward]]></title>
+            <description><![CDATA[JT stopped by on this episode to talk about our upcoming shows and The West Windows. They are about to go into the studio with my buddy Britt. Again, I love this dude!]]></description>
+            <link>http://feeds.soundcloud.com/stream/346670869-squirrelingpodcast-squirreling-podcast-episode-13.mp3</link>
+            <guid isPermaLink="false">20171013 </guid>
+            <pubDate>Fri, 13 Oct 2017 05:00:00 GMT</pubDate>
+            <enclosure url="http://feeds.soundcloud.com/stream/346670869-squirrelingpodcast-squirreling-podcast-episode-13.mp3" length="44339443" type="audio/mpeg"/>
+            <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
+            <itunes:subtitle>JT stopped by on this episode to talk about our upcoming shows and The West Windows. They are about to go into the studio with my buddy Britt. Again, I love this dude!</itunes:subtitle>
+            <content:encoded>JT stopped by on this episode to talk about our upcoming shows and The West Windows. They are about to go into the studio with my buddy Britt. Again, I love this dude!</content:encoded>
+            <itunes:duration>1:13:28</itunes:duration>
+            <itunes:author>Squirreling Podcast</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:keywords>podcast,squirreling,ward,music,deathstairs,westwindows</itunes:keywords>
+        </item>
         <item>
             <title><![CDATA[Episode #12 - Oliver Sheppard]]></title>
             <description><![CDATA[Oliver stopped by and I have to say he is one of the nicest dudes I've ever met. He is an author, poet, music journalist, and throws shows. This dude is fascinating and I had the honor to get to find out more about him. He just released his first book Destruction: Text I. Peep that amazon link!]]></description>

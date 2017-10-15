@@ -4,7 +4,7 @@
         <description><![CDATA[Podcast by Squirreling Podcast]]></description>
         <link>http://squirrelingpodcast.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 26 Sep 2017 23:34:13 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Oct 2017 05:05:40 GMT</lastBuildDate>
         <atom:link href="http://squirrelingpodcast.com/rss/squirrelingpodcast.rss" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 06 Jun 2017 03:54:24 GMT</pubDate>
         <copyright><![CDATA[Copyright © Squirreling Podcast]]></copyright>
@@ -35,12 +35,44 @@
         <itunes:category text="Comedy">
         </itunes:category>
         <item>
+            <title><![CDATA[Episode #13 - JT Ward]]></title>
+            <description><![CDATA[JT stopped by on this episode to talk about our upcoming shows and The West Windows. They are about to go into the studio with my buddy Britt. Again, I love this dude!]]></description>
+            <link>http://feeds.soundcloud.com/stream/346670869-squirrelingpodcast-squirreling-podcast-episode-13.mp3</link>
+            <guid isPermaLink="false">20171013 </guid>
+            <pubDate>Fri, 13 Oct 2017 05:00:00 GMT</pubDate>
+            <enclosure url="http://feeds.soundcloud.com/stream/346670869-squirrelingpodcast-squirreling-podcast-episode-13.mp3" length="44339443" type="audio/mpeg"/>
+            <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
+            <itunes:subtitle>JT stopped by on this episode to talk about our upcoming shows and The West Windows. They are about to go into the studio with my buddy Britt. Again, I love this dude!</itunes:subtitle>
+            <content:encoded>JT stopped by on this episode to talk about our upcoming shows and The West Windows. They are about to go into the studio with my buddy Britt. Again, I love this dude!</content:encoded>
+            <itunes:duration>1:13:28</itunes:duration>
+            <itunes:author>Squirreling Podcast</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:keywords>podcast,squirreling,ward,music,deathstairs,westwindows</itunes:keywords>
+        </item>
+        <item>
+            <title><![CDATA[Episode #12 - Oliver Sheppard]]></title>
+            <description><![CDATA[Oliver stopped by and I have to say he is one of the nicest dudes I've ever met. He is an author, poet, music journalist, and throws shows. This dude is fascinating and I had the honor to get to find out more about him. He just released his first book Destruction: Text I. Peep that amazon link!]]></description>
+            <link>http://feeds.soundcloud.com/stream/345263176-squirrelingpodcast-squirreling-podcast-episode-12.mp3</link>
+            <guid isPermaLink="false">20171004</guid>
+            <pubDate>Wed, 04 Oct 2017 05:00:00 GMT</pubDate>
+            <enclosure url="http://feeds.soundcloud.com/stream/345263176-squirrelingpodcast-squirreling-podcast-episode-12.mp3" length="59180156" type="audio/mpeg"/>
+            <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
+            <itunes:subtitle>Oliver stopped by and I have to say he is one of the nicest dudes I&apos;ve ever met. He is an author, poet, music journalist, and throws shows. This dude is fascinating and I had the honor to get to find out more about him. He just released his first book Destruction: Text I. Peep that amazon link!</itunes:subtitle>
+            <content:encoded>Oliver stopped by and I have to say he is one of the nicest dudes I&apos;ve ever met. He is an author, poet, music journalist, and throws shows. This dude is fascinating and I had the honor to get to find out more about him. He just released his first book Destruction: Text I. Peep that amazon link!</content:encoded>
+            <itunes:duration>1:58:49</itunes:duration>
+            <itunes:author>Squirreling Podcast</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:keywords>podcast,squirreling,destructiontextI,wardance,author</itunes:keywords>
+        </item>
+        <item>
             <title><![CDATA[Episode #11 - Eric Grubbs]]></title>
             <description><![CDATA[Eric is a writer, musician, author, traffic reporter, awesome dude. He has written two books, Post: A Look at the Influence of Post Hardcore and When We Were the Kids. I had an awesome time getting to know Eric and talk about all sorts of different things. He just played his first show in Caved Mountains and hopefully there will be more. Great time with a great dude.]]></description>
-            <link>http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-11.mp3</link>
+            <link>http://feeds.soundcloud.com/stream/345048308-squirrelingpodcast-squirreling-podcast-episode-11.mp3</link>
             <guid isPermaLink="false">20170926</guid>
             <pubDate>Tue, 26 Sep 2017 05:00:00 GMT</pubDate>
-            <enclosure url="http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-11.mp3" length="81069089" type="audio/mpeg"/>
+            <enclosure url="http://feeds.soundcloud.com/stream/345048308-squirrelingpodcast-squirreling-podcast-episode-11.mp3" length="81069089" type="audio/mpeg"/>
             <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
             <itunes:subtitle>Eric is a writer, musician, author, traffic reporter, awesome dude. He has written two books, Post: A Look at the Influence of Post Hardcore and When We Were the Kids. I had an awesome time getting to know Eric and talk about all sorts of different things. He just played his first show in Caved Mountains and hopefully there will be more. Great time with a great dude.</itunes:subtitle>
             <content:encoded>Eric is a writer, musician, author, traffic reporter, awesome dude. He has written two books, Post: A Look at the Influence of Post Hardcore and When We Were the Kids. I had an awesome time getting to know Eric and talk about all sorts of different things. He just played his first show in Caved Mountains and hopefully there will be more. Great time with a great dude.</content:encoded>
@@ -53,10 +85,10 @@
         <item>
             <title><![CDATA[Episode #10 - Sean and Nan Kirkpatrick]]></title>
             <description><![CDATA[Sean and Nan of Little Beards stopped by in this episode. I got the chance to talk to them about their upcoming tour, ZZ top, and received a surprise delivery in the middle of the podcast. I have always loved Sean's musicianship and it was a great pleasure getting to chat with his wife Nan. True staples of Dallas music.]]></description>
-            <link>http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-10.mp3</link>
+            <link>http://feeds.soundcloud.com/stream/345047729-squirrelingpodcast-squirreling-podcast-episode-10.mp3</link>
             <guid isPermaLink="false">20170906</guid>
             <pubDate>Wed, 06 Sep 2017 05:00:00 GMT</pubDate>
-            <enclosure url="http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-10.mp3" length="45154112" type="audio/mpeg"/>
+            <enclosure url="http://feeds.soundcloud.com/stream/345047729-squirrelingpodcast-squirreling-podcast-episode-10.mp3" length="45154112" type="audio/mpeg"/>
             <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
             <itunes:subtitle>Sean and Nan of Little Beards stopped by in this episode. I got the chance to talk to them about their upcoming tour, ZZ top, and received a surprise delivery in the middle of the podcast. I have always loved Seans musicianship and it was a great pleasure getting to chat with his wife Nan. True staples of Dallas music.</itunes:subtitle>
             <content:encoded>Sean and Nan of Little Beards stopped by in this episode. I got the chance to talk to them about their upcoming tour, ZZ top, and received a surprise delivery in the middle of the podcast. I have always loved Seans musicianship and it was a great pleasure getting to chat with his wife Nan. True staples of Dallas music.</content:encoded>
@@ -69,10 +101,10 @@
         <item>
             <title><![CDATA[Episode #9 - Elisa Williams]]></title>
             <description><![CDATA[Elisa is one of my wife's best friends. She runs neon cart which is an online vintage/thrift store based out of Austin, Texas. In this episode we just talk and have a fun time. My wife also joins in.]]></description>
-            <link>http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-9.mp3</link>
+            <link>http://feeds.soundcloud.com/stream/345045904-squirrelingpodcast-squirreling-podcast-episode-9.mp3</link>
             <guid isPermaLink="false">20170820</guid>
             <pubDate>Sun, 20 Aug 2017 05:00:00 GMT</pubDate>
-            <enclosure url="http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-9.mp3" length="80506463" type="audio/mpeg"/>
+            <enclosure url="http://feeds.soundcloud.com/stream/345045904-squirrelingpodcast-squirreling-podcast-episode-9.mp3" length="80506463" type="audio/mpeg"/>
             <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
             <itunes:subtitle>Elisa is one of my wifes best friends. She runs neon cart which is an online vintage/thrift store based out of Austin, Texas. In this episode we just talk and have a fun time. My wife also joins in.</itunes:subtitle>
             <content:encoded>Elisa is one of my wifes best friends. She runs neon cart which is an online vintage/thrift store based out of Austin, Texas. In this episode we just talk and have a fun time. My wife also joins in.</content:encoded>
@@ -85,10 +117,10 @@
         <item>
             <title><![CDATA[Episode #8 - Stealers]]></title>
             <description><![CDATA[Chris and Justin from Stealers dropped by on this episode. This was a super fun podcast and we got the chance to hear a song from their new album 'Thin Ice'. They are playing a couple of album release shows coming up this month in August. Check them out and pick up a copy!]]></description>
-            <link>http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-8.mp3</link>
+            <link>http://feeds.soundcloud.com/stream/345044547-squirrelingpodcast-squirreling-podcast-episode-8.mp3</link>
             <guid isPermaLink="false">20170810</guid>
             <pubDate>Thu, 10 Aug 2017 05:00:00 GMT</pubDate>
-            <enclosure url="http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-8.mp3" length="67640893" type="audio/mpeg"/>
+            <enclosure url="http://feeds.soundcloud.com/stream/345044547-squirrelingpodcast-squirreling-podcast-episode-8.mp3" length="67640893" type="audio/mpeg"/>
             <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
             <itunes:subtitle>Chris and Justin from Stealers dropped by on this episode. This was a super fun podcast and we got the chance to hear a song from their new album Thin Ice. They are playing a couple of album release shows coming up this month in August. Check them out and pick up a copy!</itunes:subtitle>
             <content:encoded>Chris and Justin from Stealers dropped by on this episode. This was a super fun podcast and we got the chance to hear a song from their new album Thin Ice. They are playing a couple of album release shows coming up this month in August. Check them out and pick up a copy!</content:encoded>
@@ -101,10 +133,10 @@
         <item>
             <title><![CDATA[Episode #7 - Riley Gale]]></title>
             <description><![CDATA[I've known Riley for a long time and it was great catching up and talking about comics, touring, and tons of other stuff. He plays in Power Trip from Dallas, Tx and they have recently put out a record entitled 'Nightmare Logic'. This dude is solid and I'm glad he's doing it big because he deserves it.]]></description>
-            <link>http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-7.mp3</link>
+            <link>http://feeds.soundcloud.com/stream/345040785-squirrelingpodcast-squirreling-podcast-episode-7.mp3</link>
             <guid isPermaLink="false">20170803</guid>
             <pubDate>Thu, 03 Aug 2017 05:00:00 GMT</pubDate>
-            <enclosure url="http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-7.mp3" length="96004072" type="audio/mpeg"/>
+            <enclosure url="http://feeds.soundcloud.com/stream/345040785-squirrelingpodcast-squirreling-podcast-episode-7.mp3" length="96004072" type="audio/mpeg"/>
             <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
             <itunes:subtitle>Ive known Riley for a long time and it was great catching up and talking about comics, touring, and tons of other stuff. He plays in Power Trip from Dallas, Tx and they have recently put out a record entitled Nightmare Logic. This dude is solid and I&apos;m glad he&apos;s doing it big because he deserves it.</itunes:subtitle>
             <content:encoded>Ive known Riley for a long time and it was great catching up and talking about comics, touring, and tons of other stuff. He plays in Power Trip from Dallas, Tx and they have recently put out a record entitled Nightmare Logic. This dude is solid and I&apos;m glad he&apos;s doing it big because he deserves it.</content:encoded>
@@ -117,10 +149,10 @@
         <item>
             <title><![CDATA[Episode #6 - Emil Rapstine]]></title>
             <description><![CDATA[The Angelus is a Dallas, Tx based group that has recently put out a record entitled 'There Will Be No Peace'. I got the chance to meet and site down with Emil and it was a great pleasure to have him on the podcast. Not only is this dude amazing but his band is fantastic.]]></description>
-            <link>http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-6.mp3</link>
+            <link>http://feeds.soundcloud.com/stream/345039300-squirrelingpodcast-squirreling-podcast-episode-6.mp3</link>
             <guid isPermaLink="false">20170725</guid>
             <pubDate>Tue, 25 Jul 2017 05:00:00 GMT</pubDate>
-            <enclosure url="http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-6.mp3" length="79262341" type="audio/mpeg"/>
+            <enclosure url="http://feeds.soundcloud.com/stream/345039300-squirrelingpodcast-squirreling-podcast-episode-6.mp3" length="79262341" type="audio/mpeg"/>
             <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
             <itunes:subtitle>The Angelus is a Dallas, Tx based group that has recently put out a record entitled There Will Be No Peace. I got the chance to meet and site down with Emil and it was a great pleasure to have him on the podcast. Not only is this dude amazing but his band is fantastic.</itunes:subtitle>
             <content:encoded>The Angelus is a Dallas, Tx based group that has recently put out a record entitled There Will Be No Peace. I got the chance to meet and site down with Emil and it was a great pleasure to have him on the podcast. Not only is this dude amazing but his band is fantastic.</content:encoded>
@@ -133,10 +165,10 @@
         <item>
             <title><![CDATA[Episode #5 - Tyrannosorceress]]></title>
             <description><![CDATA[Tyrannosorceress is a Dallas, Tx based black metal band that has recently put out a record entitled 'Shattering Light's Creation'. I've known these guys for a while and not only are they super fun dudes but are also great fucking  musicians. We sat down to talk about life, music, and PINK FLOYD!]]></description>
-            <link>http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-5.mp3</link>
+            <link>http://feeds.soundcloud.com/stream/345038415-squirrelingpodcast-squirreling-podcast-episode-5.mp3</link>
             <guid isPermaLink="false">20170715</guid>
             <pubDate>Sat, 15 Jul 2017 05:00:00 GMT</pubDate>
-            <enclosure url="http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-5.mp3" length="63653761" type="audio/mpeg"/>
+            <enclosure url="http://feeds.soundcloud.com/stream/345038415-squirrelingpodcast-squirreling-podcast-episode-5.mp3" length="63653761" type="audio/mpeg"/>
             <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
             <itunes:subtitle>Tyrannosorceress is a Dallas, Tx based black metal band that has recently put out a record entitled Shattering Lights Creation. Ive known these guys for a while and not only are they super fun dudes but are also great fucking  musicians. We sat down to talk about life, music, and PINK FLOYD!</itunes:subtitle>
             <content:encoded>Tyrannosorceress is a Dallas, Tx based black metal band that has recently put out a record entitled Shattering Lights Creation. Ive known these guys for a while and not only are they super fun dudes but are also great fucking  musicians. We sat down to talk about life, music, and PINK FLOYD!</content:encoded>
@@ -149,10 +181,10 @@
         <item>
             <title><![CDATA[Episode #4 - JT Ward]]></title>
             <description><![CDATA[JT Ward is a Dallas, Tx based musician who plays in West Windows and Death Stairs. I met JT by reaching out to him about playing some shows together and come to find out we listen to a lot of the same music. We connected from the get go and this dude is extremely talented. Check out his bands, they rule!]]></description>
-            <link>http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-4.mp3</link>
+            <link>http://feeds.soundcloud.com/stream/345037451-squirrelingpodcast-squirreling-podcast-episode-4.mp3</link>
             <guid isPermaLink="false">20170625</guid>
             <pubDate>Sun, 25 Jun 2017 05:00:00 GMT</pubDate>
-            <enclosure url="http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-4.mp3" length="49151138" type="audio/mpeg"/>
+            <enclosure url="http://feeds.soundcloud.com/stream/345037451-squirrelingpodcast-squirreling-podcast-episode-4.mp3" length="49151138" type="audio/mpeg"/>
             <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
             <itunes:subtitle>JT Ward is a Dallas, Tx based musician who plays in West Windows and Death Stairs. I met JT by reaching out to him about playing some shows together and come to find out we listen to a lot of the same music. We connected from the get go and this dude is extremely talented. Check out his bands, they rule!</itunes:subtitle>
             <content:encoded>JT Ward is a Dallas, Tx based musician who plays in West Windows and Death Stairs. I met JT by reaching out to him about playing some shows together and come to find out we listen to a lot of the same music. We connected from the get go and this dude is extremely talented. Check out his bands, they rule!</content:encoded>
@@ -165,10 +197,10 @@
         <item>
             <title><![CDATA[Episode #3 - Javier Somoza]]></title>
             <description><![CDATA[Javier Somoza is a Dallas, Tx based musician who plays in Weezing and Sleep Sweet. He is also a huge karaoke enthusiast. This dude is amaze balls.]]></description>
-            <link>http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-3.mp3</link>
+            <link>http://feeds.soundcloud.com/stream/345033598-squirrelingpodcast-squirreling-podcast-episode-3.mp3</link>
             <guid isPermaLink="false">20170617</guid>
             <pubDate>Sat, 17 Jun 2017 05:00:00 GMT</pubDate>
-            <enclosure url="http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-3.mp3" length="86878220" type="audio/mpeg"/>
+            <enclosure url="http://feeds.soundcloud.com/stream/345033598-squirrelingpodcast-squirreling-podcast-episode-3.mp3" length="86878220" type="audio/mpeg"/>
             <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
             <itunes:subtitle>Javier Somoza is a Dallas, Tx based musician who plays in Weezing and Sleep Sweet. He is also a huge karaoke enthusiast. This dude is amaze balls.</itunes:subtitle>
             <content:encoded>Javier Somoza is a Dallas, Tx based musician who plays in Weezing and Sleep Sweet. He is also a huge karaoke enthusiast. This dude is amaze balls.</content:encoded>
@@ -181,10 +213,10 @@
         <item>
             <title><![CDATA[Episode #2 - Adam Bertholdi]]></title>
             <description><![CDATA[Adam Bertholdi is a Denton, Tx based musician who plays in Cozy Hawks. He has previously played in Gazelles and A Faith Called Chaos. Cozy Hawks are currently looking for a drummer so if you are interested hit them up!]]></description>
-            <link>http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-2.mp3</link>
+            <link>http://feeds.soundcloud.com/stream/345027081-squirrelingpodcast-squirreling-podcast-episode-2.mp3</link>
             <guid isPermaLink="false">20170601</guid>
             <pubDate>Thu, 01 Jun 2017 05:00:00 GMT</pubDate>
-            <enclosure url="http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-2.mp3" length="34811296" type="audio/mpeg"/>
+            <enclosure url="http://feeds.soundcloud.com/stream/345027081-squirrelingpodcast-squirreling-podcast-episode-2.mp3" length="34811296" type="audio/mpeg"/>
             <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
             <itunes:subtitle>Adam Bertholdi is a Denton, Tx based musician who plays in Cozy Hawks. He has previously played in Gazelles and A Faith Called Chaos. Cozy Hawks are currently looking for a drummer so if you are interested hit them up!</itunes:subtitle>
             <content:encoded>Adam Bertholdi is a Denton, Tx based musician who plays in Cozy Hawks. He has previously played in Gazelles and A Faith Called Chaos. Cozy Hawks are currently looking for a drummer so if you are interested hit them up!</content:encoded>
@@ -197,10 +229,10 @@
         <item>
             <title><![CDATA[Episode #1 - Britt Robisheaux]]></title>
             <description><![CDATA[Britt Robisheaux is an audio engineer at Cloudland Recording Studio in Fort Worth, Texas and currently plays in Most Efficient Women and Theater Fire. He has previously played in Drug Mountain and Nouns Group. If you are in need of a great recording book some time with Britt.]]></description>
-            <link>http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-1.mp3</link>
+            <link>http://feeds.soundcloud.com/stream/345022454-squirrelingpodcast-squirreling-podcast-episode-1.mp3</link>
             <guid isPermaLink="false">20170526</guid>
             <pubDate>Fri, 26 May 2017 05:00:00 GMT</pubDate>
-            <enclosure url="http://squirrelingpodcast.com/audio/Squirreling-Podcast-Episode-1.mp3" length="60063919" type="audio/mpeg"/>
+            <enclosure url="http://feeds.soundcloud.com/stream/345022454-squirrelingpodcast-squirreling-podcast-episode-1.mp3" length="60063919" type="audio/mpeg"/>
             <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
             <itunes:subtitle>Britt Robisheaux is an audio engineer at Cloudland Recording Studio in Fort Worth, Texas and currently plays in Most Efficient Women and Theater Fire. He has previously played in Drug Mountain and Nouns Group. If you are in need of a great recording book some time with Britt.</itunes:subtitle>
             <content:encoded>Britt Robisheaux is an audio engineer at Cloudland Recording Studio in Fort Worth, Texas and currently plays in Most Efficient Women and Theater Fire. He has previously played in Drug Mountain and Nouns Group. If you are in need of a great recording book some time with Britt.</content:encoded>

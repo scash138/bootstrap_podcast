@@ -1,5 +1,22 @@
 {
   "podcasts":[{
+    "episode": "13",
+    "date" : "10/13/2017",
+    "guest": "JT Ward",
+    "band": "West Windows, Death Stairs",
+    "links":"<a href='https://thewestwindows.bandcamp.com/' target='blank_'>West Windows</a><br><a href='https://deathstairs1.bandcamp.com/' target='blank_'>Death Stairs</a>",
+    "description": "JT stopped by on this episode to talk about our upcoming shows and The West Windows. They are about to go into the studio with my buddy Britt. Again, I love this dude!",
+    "description_raw": "JT stopped by on this episode to talk about our upcoming shows and The West Windows. They are about to go into the studio with my buddy Britt. Again, I love this dude!",
+    "description_subtitle": "JT stopped by on this episode to talk about our upcoming shows and The West Windows. They are about to go into the studio with my buddy Britt. Again, I love this dude!",
+    "image": "images/guest_images/JT_Sterling.jpg",
+    "alt": "JT_Ward_2nd",
+    "audiofile": "https://soundcloud.com/squirrelingpodcast/squirreling-podcast-episode-13",
+    "soundcloudfile": "http://feeds.soundcloud.com/stream/346670869-squirrelingpodcast-squirreling-podcast-episode-13.mp3",
+    "enclore_length": "44339443",
+    "guid": "20171013 ",
+    "keywords": "podcast,squirreling,ward,music,deathstairs,westwindows",
+    "duration": "1:13:28"
+  },{
       "episode": "12",
       "date" : "10/04/2017",
       "guest": "Oliver Sheppard",
