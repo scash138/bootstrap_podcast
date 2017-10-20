@@ -1,5 +1,22 @@
 {
   "podcasts":[{
+    "episode": "14",
+    "date" : "10/20/2017",
+    "guest": "Brian Smith",
+    "band": "Wax Ruins",
+    "links":"<a href='https://waxruins.bandcamp.com/' target='blank_'>Wax Ruins</a>",
+    "description": "Brian is one dope ass dude. He swung by for this episode and we talked about gear, doom, wax ruins, wood working and fishing. I'm glad a got a chance to sit down with Brian and learn more about him.",
+    "description_raw": "Brian is one dope ass dude. He swung by for this episode and we talked about gear, doom, wax ruins, wood working and fishing. I'm glad a got a chance to sit down with Brian and learn more about him.",
+    "description_subtitle": "Brian is one dope ass dude. He swung by for this episode and we talked about gear, doom, wax ruins, wood working and fishing. I'm glad a got a chance to sit down with Brian and learn more about him.",
+    "image": "images/guest_images/wax_ruins.jpg",
+    "alt": "waxruins_sterling",
+    "audiofile": "https://soundcloud.com/squirrelingpodcast/squirreling-podcast-episode-14",
+    "soundcloudfile": "http://feeds.soundcloud.com/stream/347708988-squirrelingpodcast-squirreling-podcast-episode-14.mp3",
+    "enclore_length": "61791286",
+    "guid": "20171020",
+    "keywords": "podcast,squirreling,wax ruins",
+    "duration": "1:29:10"
+  },{
     "episode": "13",
     "date" : "10/13/2017",
     "guest": "JT Ward",
@@ -13,7 +30,7 @@
     "audiofile": "https://soundcloud.com/squirrelingpodcast/squirreling-podcast-episode-13",
     "soundcloudfile": "http://feeds.soundcloud.com/stream/346670869-squirrelingpodcast-squirreling-podcast-episode-13.mp3",
     "enclore_length": "44339443",
-    "guid": "20171013 ",
+    "guid": "20171013",
     "keywords": "podcast,squirreling,ward,music,deathstairs,westwindows",
     "duration": "1:13:28"
   },{
