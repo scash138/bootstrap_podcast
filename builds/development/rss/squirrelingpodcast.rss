@@ -4,7 +4,7 @@
         <description><![CDATA[Podcast by Squirreling Podcast]]></description>
         <link>http://squirrelingpodcast.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Oct 2017 13:27:13 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 09 Nov 2017 04:41:11 GMT</lastBuildDate>
         <atom:link href="http://squirrelingpodcast.com/rss/squirrelingpodcast.rss" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 06 Jun 2017 03:54:24 GMT</pubDate>
         <copyright><![CDATA[Copyright © Squirreling Podcast]]></copyright>
@@ -34,6 +34,54 @@
         </itunes:category>
         <itunes:category text="Comedy">
         </itunes:category>
+        <item>
+            <title><![CDATA[Episode #17 - Daron Beck]]></title>
+            <description><![CDATA[Daron stopped by on this episode and this one was a ton of fun. We talked about one of the best places to ever exist, Crystals pizza. I think this dude is so talented and it was a pleasure to be able to chat with him about movies, creepy shit, etc. If you haven't heard Pinkish Black you are missing out!]]></description>
+            <link>http://feeds.soundcloud.com/stream/353185658-squirrelingpodcast-squirreling-podcast-episode-17.mp3</link>
+            <guid isPermaLink="false">20171110</guid>
+            <pubDate>Fri, 10 Nov 2017 06:00:00 GMT</pubDate>
+            <enclosure url="http://feeds.soundcloud.com/stream/353185658-squirrelingpodcast-squirreling-podcast-episode-17.mp3" length="61313908" type="audio/mpeg"/>
+            <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
+            <itunes:subtitle>Daron stopped by on this episode and this one was a ton of fun. We talked about one of the best places to ever exist, Crystals pizza. I think this dude is so talented and it was a pleasure to be able to chat with him about movies, creepy shit, etc. If you haven&apos;t heard Pinkish Black you are missing out!</itunes:subtitle>
+            <content:encoded>Daron stopped by on this episode and this one was a ton of fun. We talked about one of the best places to ever exist, Crystals pizza. I think this dude is so talented and it was a pleasure to be able to chat with him about movies, creepy shit, etc. If you haven&apos;t heard Pinkish Black you are missing out!</content:encoded>
+            <itunes:duration>02:03:08</itunes:duration>
+            <itunes:author>Squirreling Podcast</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:keywords>podcast,squirreling,pinkishblack</itunes:keywords>
+        </item>
+        <item>
+            <title><![CDATA[Episode #16 - Easy Prey]]></title>
+            <description><![CDATA[Chris and Cole from Easy Prey stopped by for episode 16. They made the treck from Austin and and stayed with me so we could go bro down. I had a great time talking with these dudes and can't wait for our show together later this month.]]></description>
+            <link>http://feeds.soundcloud.com/stream/351491311-squirrelingpodcast-squirreling-podcast-episode-16.mp3</link>
+            <guid isPermaLink="false">20171105</guid>
+            <pubDate>Sun, 05 Nov 2017 05:00:00 GMT</pubDate>
+            <enclosure url="http://feeds.soundcloud.com/stream/351491311-squirrelingpodcast-squirreling-podcast-episode-16.mp3" length="78749177" type="audio/mpeg"/>
+            <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
+            <itunes:subtitle>Chris and Cole from Easy Prey stopped by for episode 16. They made the treck from Austin and and stayed with me so we could go bro down. I had a great time talking with these dudes and can&apos;t wait for our show together later this month.</itunes:subtitle>
+            <content:encoded>Chris and Cole from Easy Prey stopped by for episode 16. They made the treck from Austin and and stayed with me so we could go bro down. I had a great time talking with these dudes and can&apos;t wait for our show together later this month.</content:encoded>
+            <itunes:duration>2:17:04</itunes:duration>
+            <itunes:author>Squirreling Podcast</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:keywords>podcast,squirreling,easyprey</itunes:keywords>
+        </item>
+        <item>
+            <title><![CDATA[Episode #15 - Honey Lotus]]></title>
+            <description><![CDATA[Ryan and Brandon from Honey Lotus came by for this episode. Ryan and I have know each other for years and he play in Broadcast Sea with me. We got a chance to reminisce and I was able to meet Brandon. This was a fun podcast and I loved having them on.]]></description>
+            <link>http://feeds.soundcloud.com/stream/348456850-squirrelingpodcast-squirreling-podcast-episode-15.mp3</link>
+            <guid isPermaLink="false">20171025</guid>
+            <pubDate>Wed, 25 Oct 2017 05:00:00 GMT</pubDate>
+            <enclosure url="http://feeds.soundcloud.com/stream/348456850-squirrelingpodcast-squirreling-podcast-episode-15.mp3" length="53724324" type="audio/mpeg"/>
+            <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
+            <itunes:subtitle>Ryan and Brandon from Honey Lotus came by for this episode. Ryan and I have know each other for years and he play in Broadcast Sea with me. We got a chance to reminisce and I was able to meet Brandon. This was a fun podcast and I loved having them on.</itunes:subtitle>
+            <content:encoded>Ryan and Brandon from Honey Lotus came by for this episode. Ryan and I have know each other for years and he play in Broadcast Sea with me. We got a chance to reminisce and I was able to meet Brandon. This was a fun podcast and I loved having them on.</content:encoded>
+            <itunes:duration>1:34:53</itunes:duration>
+            <itunes:author>Squirreling Podcast</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:keywords>podcast,squirreling,honeylotus</itunes:keywords>
+        </item>
         <item>
             <title><![CDATA[Episode #14 - Brian Smith]]></title>
             <description><![CDATA[Brian is one dope ass dude. He swung by for this episode and we talked about gear, doom, wax ruins, wood working and fishing. I'm glad a got a chance to sit down with Brian and learn more about him.]]></description>
