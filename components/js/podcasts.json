@@ -1,5 +1,22 @@
 {
   "podcasts":[{
+    "episode": "18",
+    "date" : "11/16/2017",
+    "guest": "BULLS",
+    "band": "BULLS",
+    "links":"<a href='https://bullsband.bandcamp.com/' target='blank_'>BULLS</a>",
+    "description": "I had the honor of having BULLS on the podcast. Holy hell these guys are rad. I will say this podcast goes long but it was so much fun talking with these dudes. Alcohol was involved and we had to hit the pause button a couple of times but it was an amazing time!",
+    "description_raw": "I had the honor of having BULLS on the podcast. Holy hell these guys are rad. I will say this podcast goes long but it was so much fun talking with these dudes. Alcohol was involved and we had to hit the pause button a couple of times but it was an amazing time!",
+    "description_subtitle": "I had the honor of having BULLS on the podcast. Holy hell these guys are rad. I will say this podcast goes long but it was so much fun talking with these dudes. Alcohol was involved and we had to hit the pause button a couple of times but it was an amazing time!",
+    "image": "images/guest_images/bulls_sterling.jpg",
+    "alt": "bulls_sterling",
+    "audiofile": "https://soundcloud.com/squirrelingpodcast/squirreling-podcast-episode-18",
+    "soundcloudfile": "http://feeds.soundcloud.com/stream/356428598-squirrelingpodcast-squirreling-podcast-episode-18.mp3",
+    "enclore_length": "106030945",
+    "guid": "20171116",
+    "keywords": "podcast,squirreling,BULL",
+    "duration": "02:31:24"
+  },{
     "episode": "17",
     "date" : "11/10/2017",
     "guest": "Daron Beck",

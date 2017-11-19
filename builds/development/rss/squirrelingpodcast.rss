@@ -4,7 +4,7 @@
         <description><![CDATA[Podcast by Squirreling Podcast]]></description>
         <link>http://squirrelingpodcast.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 09 Nov 2017 04:41:11 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Nov 2017 02:22:56 GMT</lastBuildDate>
         <atom:link href="http://squirrelingpodcast.com/rss/squirrelingpodcast.rss" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 06 Jun 2017 03:54:24 GMT</pubDate>
         <copyright><![CDATA[Copyright © Squirreling Podcast]]></copyright>
@@ -34,6 +34,22 @@
         </itunes:category>
         <itunes:category text="Comedy">
         </itunes:category>
+        <item>
+            <title><![CDATA[Episode #18 - BULLS]]></title>
+            <description><![CDATA[I had the honor of having BULLS on the podcast. Holy hell these guys are rad. I will say this podcast goes long but it was so much fun talking with these dudes. Alcohol was involved and we had to hit the pause button a couple of times but it was an amazing time!]]></description>
+            <link>http://feeds.soundcloud.com/stream/356428598-squirrelingpodcast-squirreling-podcast-episode-18.mp3</link>
+            <guid isPermaLink="false">20171116</guid>
+            <pubDate>Thu, 16 Nov 2017 06:00:00 GMT</pubDate>
+            <enclosure url="http://feeds.soundcloud.com/stream/356428598-squirrelingpodcast-squirreling-podcast-episode-18.mp3" length="106030945" type="audio/mpeg"/>
+            <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
+            <itunes:subtitle>I had the honor of having BULLS on the podcast. Holy hell these guys are rad. I will say this podcast goes long but it was so much fun talking with these dudes. Alcohol was involved and we had to hit the pause button a couple of times but it was an amazing time!</itunes:subtitle>
+            <content:encoded>I had the honor of having BULLS on the podcast. Holy hell these guys are rad. I will say this podcast goes long but it was so much fun talking with these dudes. Alcohol was involved and we had to hit the pause button a couple of times but it was an amazing time!</content:encoded>
+            <itunes:duration>02:31:24</itunes:duration>
+            <itunes:author>Squirreling Podcast</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:keywords>podcast,squirreling,BULL</itunes:keywords>
+        </item>
         <item>
             <title><![CDATA[Episode #17 - Daron Beck]]></title>
             <description><![CDATA[Daron stopped by on this episode and this one was a ton of fun. We talked about one of the best places to ever exist, Crystals pizza. I think this dude is so talented and it was a pleasure to be able to chat with him about movies, creepy shit, etc. If you haven't heard Pinkish Black you are missing out!]]></description>
