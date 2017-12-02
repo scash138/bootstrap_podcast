@@ -4,7 +4,7 @@
         <description><![CDATA[Podcast by Squirreling Podcast]]></description>
         <link>http://squirrelingpodcast.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 16 Nov 2017 02:22:56 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Nov 2017 02:59:45 GMT</lastBuildDate>
         <atom:link href="http://squirrelingpodcast.com/rss/squirrelingpodcast.rss" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 06 Jun 2017 03:54:24 GMT</pubDate>
         <copyright><![CDATA[Copyright © Squirreling Podcast]]></copyright>
@@ -35,6 +35,22 @@
         <itunes:category text="Comedy">
         </itunes:category>
         <item>
+            <title><![CDATA[Episode #19 - Andrew Hawkins]]></title>
+            <description><![CDATA[My long time buddy Andrew Hawkins joined me to talk about Baring Teeth finally!! I love every member of this band and they are some of the most talented musicians I have ever been around or seen. Do yourself a favor and check out the genius that is Baring Teeth!]]></description>
+            <link>http://feeds.soundcloud.com/stream/362790305-squirrelingpodcast-squirreling-podcast-episode-19.mp3</link>
+            <guid isPermaLink="false">20171129</guid>
+            <pubDate>Wed, 29 Nov 2017 06:00:00 GMT</pubDate>
+            <enclosure url="http://feeds.soundcloud.com/stream/362790305-squirrelingpodcast-squirreling-podcast-episode-19.mp3" length="110177302" type="audio/mpeg"/>
+            <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
+            <itunes:subtitle>My long time buddy Andrew Hawkins joined me to talk about Baring Teeth finally!! I love every member of this band and they are some of the most talented musicians I have ever been around or seen. Do yourself a favor and check out the genius that is Baring Teeth!</itunes:subtitle>
+            <content:encoded>My long time buddy Andrew Hawkins joined me to talk about Baring Teeth finally!! I love every member of this band and they are some of the most talented musicians I have ever been around or seen. Do yourself a favor and check out the genius that is Baring Teeth!</content:encoded>
+            <itunes:duration>01:16:31</itunes:duration>
+            <itunes:author>Squirreling Podcast</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:keywords>podcast,squirreling,baringteeth</itunes:keywords>
+        </item>
+        <item>
             <title><![CDATA[Episode #18 - BULLS]]></title>
             <description><![CDATA[I had the honor of having BULLS on the podcast. Holy hell these guys are rad. I will say this podcast goes long but it was so much fun talking with these dudes. Alcohol was involved and we had to hit the pause button a couple of times but it was an amazing time!]]></description>
             <link>http://feeds.soundcloud.com/stream/356428598-squirrelingpodcast-squirreling-podcast-episode-18.mp3</link>
@@ -48,7 +64,7 @@
             <itunes:author>Squirreling Podcast</itunes:author>
             <itunes:explicit>no</itunes:explicit>
             <itunes:episodeType>full</itunes:episodeType>
-            <itunes:keywords>podcast,squirreling,BULL</itunes:keywords>
+            <itunes:keywords>podcast,squirreling,BULLS</itunes:keywords>
         </item>
         <item>
             <title><![CDATA[Episode #17 - Daron Beck]]></title>

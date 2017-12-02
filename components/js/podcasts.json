@@ -1,5 +1,22 @@
 {
   "podcasts":[{
+    "episode": "19",
+    "date" : "11/29/2017",
+    "guest": "Andrew Hawkins",
+    "band": "Baring Teeth",
+    "links":"<a href='https://baringteethmetal.bandcamp.com/' target='blank_'>Baring Teeth</a>",
+    "description": "My long time buddy Andrew Hawkins joined me to talk about Baring Teeth finally!! I love every member of this band and they are some of the most talented musicians I have ever been around or seen. Do yourself a favor and check out the genius that is Baring Teeth!",
+    "description_raw": "My long time buddy Andrew Hawkins joined me to talk about Baring Teeth finally!! I love every member of this band and they are some of the most talented musicians I have ever been around or seen. Do yourself a favor and check out the genius that is Baring Teeth!",
+    "description_subtitle": "My long time buddy Andrew Hawkins joined me to talk about Baring Teeth finally!! I love every member of this band and they are some of the most talented musicians I have ever been around or seen. Do yourself a favor and check out the genius that is Baring Teeth!",
+    "image": "images/guest_images/andrew_sterling.jpg",
+    "alt": "andrew_sterling",
+    "audiofile": "https://soundcloud.com/squirrelingpodcast/squirreling-podcast-episode-19",
+    "soundcloudfile": "http://feeds.soundcloud.com/stream/362790305-squirrelingpodcast-squirreling-podcast-episode-19.mp3",
+    "enclore_length": "110177302",
+    "guid": "20171129",
+    "keywords": "podcast,squirreling,baringteeth",
+    "duration": "01:16:31"
+  },{
     "episode": "18",
     "date" : "11/16/2017",
     "guest": "BULLS",
@@ -14,7 +31,7 @@
     "soundcloudfile": "http://feeds.soundcloud.com/stream/356428598-squirrelingpodcast-squirreling-podcast-episode-18.mp3",
     "enclore_length": "106030945",
     "guid": "20171116",
-    "keywords": "podcast,squirreling,BULL",
+    "keywords": "podcast,squirreling,BULLS",
     "duration": "02:31:24"
   },{
     "episode": "17",
