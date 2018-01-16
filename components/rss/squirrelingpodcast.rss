@@ -4,7 +4,7 @@
         <description><![CDATA[Podcast by Squirreling Podcast]]></description>
         <link>http://squirrelingpodcast.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 30 Nov 2017 02:59:45 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Jan 2018 23:29:36 GMT</lastBuildDate>
         <atom:link href="http://squirrelingpodcast.com/rss/squirrelingpodcast.rss" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 06 Jun 2017 03:54:24 GMT</pubDate>
         <copyright><![CDATA[Copyright © Squirreling Podcast]]></copyright>
@@ -34,6 +34,38 @@
         </itunes:category>
         <itunes:category text="Comedy">
         </itunes:category>
+        <item>
+            <title><![CDATA[Episode #21 - Aztec Death]]></title>
+            <description><![CDATA[First episode of the new year and I have Aztec Death join me. I have been enjoying their music lately and that is all thanks to JT. These guys were a ton of fun to talk to and are really talented. If you are into dark wave or any other type of wave check these guys out.]]></description>
+            <link>http://feeds.soundcloud.com/stream/384677426-squirrelingpodcast-squirreling-podcast-episode-21.mp3</link>
+            <guid isPermaLink="false">20180117</guid>
+            <pubDate>Thu, 14 Dec 2017 06:00:00 GMT</pubDate>
+            <enclosure url="http://feeds.soundcloud.com/stream/384677426-squirrelingpodcast-squirreling-podcast-episode-21.mp3" length="97810015" type="audio/mpeg"/>
+            <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
+            <itunes:subtitle>First episode of the new year and I have Aztec Death join me. I have been enjoying their music lately and that is all thanks to JT. These guys were a ton of fun to talk to and are really talented. If you are into dark wave or any other type of wave check these guys out.</itunes:subtitle>
+            <content:encoded>First episode of the new year and I have Aztec Death join me. I have been enjoying their music lately and that is all thanks to JT. These guys were a ton of fun to talk to and are really talented. If you are into dark wave or any other type of wave check these guys out.</content:encoded>
+            <itunes:duration>02:17:02</itunes:duration>
+            <itunes:author>Squirreling Podcast</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:keywords>podcast,squirreling,aztecdeath</itunes:keywords>
+        </item>
+        <item>
+            <title><![CDATA[Episode #20 - Cognizant]]></title>
+            <description><![CDATA[Kevin and Irving joined me for glorious episode 20! They play in Cognizant which is a brutal metal band. I really like the way Irving writes a ton. If you have not checked them out give them a listen. Bork at the mooooooooon!]]></description>
+            <link>http://feeds.soundcloud.com/stream/369726737-squirrelingpodcast-squirreling-podcast-episode-20.mp3</link>
+            <guid isPermaLink="false">20171214</guid>
+            <pubDate>Thu, 14 Dec 2017 06:00:00 GMT</pubDate>
+            <enclosure url="http://feeds.soundcloud.com/stream/369726737-squirrelingpodcast-squirreling-podcast-episode-20.mp3" length="51121627" type="audio/mpeg"/>
+            <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
+            <itunes:subtitle>Kevin and Irving joined me for glorious episode 20! They play in Cognizant which is a brutal metal band. I really like the way Irving writes a ton. If you have not checked them out give them a listen. Bork at the mooooooooon!</itunes:subtitle>
+            <content:encoded>Kevin and Irving joined me for glorious episode 20! They play in Cognizant which is a brutal metal band. I really like the way Irving writes a ton. If you have not checked them out give them a listen. Bork at the mooooooooon!</content:encoded>
+            <itunes:duration>01:19:18</itunes:duration>
+            <itunes:author>Squirreling Podcast</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:keywords>podcast,squirreling,cognizant</itunes:keywords>
+        </item>
         <item>
             <title><![CDATA[Episode #19 - Andrew Hawkins]]></title>
             <description><![CDATA[My long time buddy Andrew Hawkins joined me to talk about Baring Teeth finally!! I love every member of this band and they are some of the most talented musicians I have ever been around or seen. Do yourself a favor and check out the genius that is Baring Teeth!]]></description>
