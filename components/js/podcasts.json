@@ -1,7 +1,24 @@
 {
   "podcasts":[{
+    "episode": "22",
+    "date" : "02/06/2018",
+    "guest": "David Wilson",
+    "band": "Sound Engineer",
+    "links":"<a href='http://double-wide.com/' target='blank_'>Double Wide</a>",
+    "description": "David is the sound engineer up at double-wide, a photographer, a musician, and a mic builder. He is busy as shit to say the least. Back in the day he started a label which signed my first band and some odd years later I get to talk to him about how that had such a positive affect on me. He also use to play in a band called [DARYL] which is making a comeback! I'm stoked to say the least. Great dude and this was a blast to have him on.",
+    "description_raw": "David is the sound engineer up at double-wide, a photographer, a musician, and a mic builder. He is busy as shit to say the least. Back in the day he started a label which signed my first band and some odd years later I get to talk to him about how that had such a positive affect on me. He also use to play in a band called DARYL which is making a comeback! Im stoked to say the least. Great dude and this was a blast to have him on.",
+    "description_subtitle": "David is the sound engineer up at double-wide, a photographer, a musician, and a mic builder. He is busy as shit to say the least. Back in the day he started a label which signed my first band and some odd years later I get to talk to him about how that had such a positive affect on me. He also use to play in a band called [DARYL] which is making a comeback! I'm stoked to say the least. Great dude and this was a blast to have him on.",
+    "image": "images/guest_images/dave_sterling.jpg",
+    "alt": "dave_sterling",
+    "audiofile": "https://soundcloud.com/squirrelingpodcast/squirreling-podcast-episode-22",
+    "soundcloudfile": "http://feeds.soundcloud.com/stream/384677426-squirrelingpodcast-squirreling-podcast-episode-22.mp3",
+    "enclore_length": "97810015",
+    "guid": "20180117",
+    "keywords": "podcast,squirreling,daryl,doublewide",
+    "duration": "02:17:02"
+  },{
     "episode": "21",
-    "date" : "12/14/2017",
+    "date" : "01/17/2018",
     "guest": "Aztec Death",
     "band": "Aztec Death",
     "links":"<a href='https://aztecdeath.bandcamp.com/' target='blank_'>Aztec Death</a>",
