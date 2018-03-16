@@ -1,5 +1,22 @@
 {
   "podcasts":[{
+    "episode": "25",
+    "date" : "03/16/2018",
+    "guest": "Justin Wilson",
+    "band": "Red Animal War and many others, Filmmaker",
+    "links":"<a href='http://deepelmdigital.com/album/slowride-red-animal-war' target='blank_'>Red Animal War</a><br><a href='http://www.afatwreck.com/' target='blank_'>A Fat Wreck</a><br><a href='https://www.youtube.com/watch?v=P13Tp4Jr0t4' target='blank_'>Filmage: The Story of Descendents/All</a>",
+    "description": "I first became aware of Justin through Red Animal War, but this dude has been in many other bands. He is also a filmmaker that has been involved in documentaries covering Fat Wreck Chords and The Descendents. Justin is a very talented dude and I was honored that he was able to stop by and chat about the tons of things he is involved in.",
+    "description_raw": "I first became aware of Justin through Red Animal War, but this dude has been in many other bands. He is also a filmmaker that has been involved in documentaries covering Fat Wreck Chords and The Descendents. Justin is a very talented dude and I was honored that he was able to stop by and chat about the tons of things he is involved in.",
+    "description_subtitle": "I first became aware of Justin through Red Animal War, but this dude has been in many other bands. He is also a filmmaker that has been involved in documentaries covering Fat Wreck Chords and The Descendents. Justin is a very talented dude and I was honored that he was able to stop by and chat about the tons of things he is involved in.",
+    "image": "images/guest_images/justin_sterling.jpg",
+    "alt": "justin_sterling",
+    "audiofile": "https://soundcloud.com/squirrelingpodcast/squirreling-podcast-episode-25",
+    "soundcloudfile": "http://feeds.soundcloud.com/stream/409300188-squirrelingpodcast-squirreling-podcast-episode-24.mp3",
+    "enclore_length": "129925140",
+    "guid": "20180316",
+    "keywords": "squirreling,redanimalwar,film",
+    "duration": "01:48:16"
+  },{
     "episode": "24",
     "date" : "03/07/2018",
     "guest": "Jeff and Tom Helland",
