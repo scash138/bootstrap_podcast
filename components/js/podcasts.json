@@ -1,5 +1,39 @@
 {
   "podcasts":[{
+    "episode": "24",
+    "date" : "03/07/2018",
+    "guest": "Jeff and Tom Helland",
+    "band": "Hoaries, Creepeth",
+    "links":"<a href='https://hoaries.bandcamp.com/' target='blank_'>Hoaries</a><br><a href='https://creepethcreepeth.bandcamp.com/releases' target='blank_'>Creepeth</a>",
+    "description": "Jeff and Tom stopped by to talk about Hoaries/Creepeth. I have liked these guys writing styles for quite some time now and it was an honor to have them on. I am really looking forward to more music from both Hoaries and Creepeth.",
+    "description_raw": "Jeff and Tom stopped by to talk about Hoaries/Creepeth. I have liked these guys writing styles for quite some time now and it was an honor to have them on. I am really looking forward to more music from both Hoaries and Creepeth.",
+    "description_subtitle": "Jeff and Tom stopped by to talk about Hoaries/Creepeth. I have liked these guys writing styles for quite some time now and it was an honor to have them on. I am really looking forward to more music from both Hoaries and Creepeth.",
+    "image": "images/guest_images/hoaries_sterling.jpg",
+    "alt": "hoaries_sterling",
+    "audiofile": "https://soundcloud.com/squirrelingpodcast/squirreling-podcast-episode-24",
+    "soundcloudfile": "http://feeds.soundcloud.com/stream/409300188-squirrelingpodcast-squirreling-podcast-episode-24.mp3",
+    "enclore_length": "129925140",
+    "guid": "20180307",
+    "keywords": "squirreling,hoaries,creepeth",
+    "duration": "01:48:16"
+  },{
+    "episode": "23",
+    "date" : "02/19/2018",
+    "guest": "Whep",
+    "band": "Whep",
+    "links":"<a href='https://whep.bandcamp.com/releases' target='blank_'>Whep</a>",
+    "description": "The dudes in Whep stopped by for this episode. They are from the Dallas/Denton area and are a really great band and group of dudes. I found their bassist Joseph to be hilarious. Check these dudes out!",
+    "description_raw": "The dudes in Whep stopped by for this episode. They are from the Dallas/Denton area and are a really great band and group of dudes. I found their bassist Joseph to be hilarious. Check these dudes out!",
+    "description_subtitle": "The dudes in Whep stopped by for this episode. They are from the Dallas/Denton area and are a really great band and group of dudes. I found their bassist Joseph to be hilarious. Check these dudes out!",
+    "image": "images/guest_images/whep_sterling.jpg",
+    "alt": "whep_sterling",
+    "audiofile": "https://soundcloud.com/squirrelingpodcast/squirreling-podcast-episode-23",
+    "soundcloudfile": "http://feeds.soundcloud.com/stream/402274113-squirrelingpodcast-squirreling-podcast-episode-23.mp3",
+    "enclore_length": "139098821",
+    "guid": "20180219",
+    "keywords": "podcast,squirreling,whep",
+    "duration": "01:55:55"
+  },{
     "episode": "22",
     "date" : "02/06/2018",
     "guest": "David Wilson",
@@ -11,11 +45,11 @@
     "image": "images/guest_images/dave_sterling.jpg",
     "alt": "dave_sterling",
     "audiofile": "https://soundcloud.com/squirrelingpodcast/squirreling-podcast-episode-22",
-    "soundcloudfile": "http://feeds.soundcloud.com/stream/384677426-squirrelingpodcast-squirreling-podcast-episode-22.mp3",
-    "enclore_length": "97810015",
-    "guid": "20180117",
+    "soundcloudfile": "http://feeds.soundcloud.com/stream/395112894-squirrelingpodcast-squirreling-podcast-episode-22.mp3",
+    "enclore_length": "100867573",
+    "guid": "20180206",
     "keywords": "podcast,squirreling,daryl,doublewide",
-    "duration": "02:17:02"
+    "duration": "01:24:03"
   },{
     "episode": "21",
     "date" : "01/17/2018",

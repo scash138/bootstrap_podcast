@@ -4,7 +4,7 @@
         <description><![CDATA[Podcast by Squirreling Podcast]]></description>
         <link>http://squirrelingpodcast.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 16 Jan 2018 23:29:36 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 06 Mar 2018 03:49:09 GMT</lastBuildDate>
         <atom:link href="http://squirrelingpodcast.com/rss/squirrelingpodcast.rss" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 06 Jun 2017 03:54:24 GMT</pubDate>
         <copyright><![CDATA[Copyright © Squirreling Podcast]]></copyright>
@@ -35,11 +35,59 @@
         <itunes:category text="Comedy">
         </itunes:category>
         <item>
+            <title><![CDATA[Episode #24 - Jeff and Tom Helland]]></title>
+            <description><![CDATA[Jeff and Tom stopped by to talk about Hoaries/Creepeth. I have liked these guys writing styles for quite some time now and it was an honor to have them on. I am really looking forward to more music from both Hoaries and Creepeth.]]></description>
+            <link>http://feeds.soundcloud.com/stream/409300188-squirrelingpodcast-squirreling-podcast-episode-24.mp3</link>
+            <guid isPermaLink="false">20180307</guid>
+            <pubDate>Wed, 07 Mar 2018 06:00:00 GMT</pubDate>
+            <enclosure url="http://feeds.soundcloud.com/stream/409300188-squirrelingpodcast-squirreling-podcast-episode-24.mp3" length="129925140" type="audio/mpeg"/>
+            <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
+            <itunes:subtitle>Jeff and Tom stopped by to talk about Hoaries/Creepeth. I have liked these guys writing styles for quite some time now and it was an honor to have them on. I am really looking forward to more music from both Hoaries and Creepeth.</itunes:subtitle>
+            <content:encoded>Jeff and Tom stopped by to talk about Hoaries/Creepeth. I have liked these guys writing styles for quite some time now and it was an honor to have them on. I am really looking forward to more music from both Hoaries and Creepeth.</content:encoded>
+            <itunes:duration>01:48:16</itunes:duration>
+            <itunes:author>Squirreling Podcast</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:keywords>squirreling,hoaries,creepeth</itunes:keywords>
+        </item>
+        <item>
+            <title><![CDATA[Episode #23 - Whep]]></title>
+            <description><![CDATA[The dudes in Whep stopped by for this episode. They are from the Dallas/Denton area and are a really great band and group of dudes. I found their bassist Joseph to be hilarious. Check these dudes out!]]></description>
+            <link>http://feeds.soundcloud.com/stream/402274113-squirrelingpodcast-squirreling-podcast-episode-23.mp3</link>
+            <guid isPermaLink="false">20180219</guid>
+            <pubDate>Mon, 19 Feb 2018 06:00:00 GMT</pubDate>
+            <enclosure url="http://feeds.soundcloud.com/stream/402274113-squirrelingpodcast-squirreling-podcast-episode-23.mp3" length="139098821" type="audio/mpeg"/>
+            <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
+            <itunes:subtitle>The dudes in Whep stopped by for this episode. They are from the Dallas/Denton area and are a really great band and group of dudes. I found their bassist Joseph to be hilarious. Check these dudes out!</itunes:subtitle>
+            <content:encoded>The dudes in Whep stopped by for this episode. They are from the Dallas/Denton area and are a really great band and group of dudes. I found their bassist Joseph to be hilarious. Check these dudes out!</content:encoded>
+            <itunes:duration>01:55:55</itunes:duration>
+            <itunes:author>Squirreling Podcast</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:keywords>podcast,squirreling,whep</itunes:keywords>
+        </item>
+        <item>
+            <title><![CDATA[Episode #22 - David Wilson]]></title>
+            <description><![CDATA[David is the sound engineer up at double-wide, a photographer, a musician, and a mic builder. He is busy as shit to say the least. Back in the day he started a label which signed my first band and some odd years later I get to talk to him about how that had such a positive affect on me. He also use to play in a band called DARYL which is making a comeback! Im stoked to say the least. Great dude and this was a blast to have him on.]]></description>
+            <link>http://feeds.soundcloud.com/stream/395112894-squirrelingpodcast-squirreling-podcast-episode-22.mp3</link>
+            <guid isPermaLink="false">20180206</guid>
+            <pubDate>Tue, 06 Feb 2018 06:00:00 GMT</pubDate>
+            <enclosure url="http://feeds.soundcloud.com/stream/395112894-squirrelingpodcast-squirreling-podcast-episode-22.mp3" length="100867573" type="audio/mpeg"/>
+            <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
+            <itunes:subtitle>David is the sound engineer up at double-wide, a photographer, a musician, and a mic builder. He is busy as shit to say the least. Back in the day he started a label which signed my first band and some odd years later I get to talk to him about how that had such a positive affect on me. He also use to play in a band called [DARYL] which is making a comeback! I&apos;m stoked to say the least. Great dude and this was a blast to have him on.</itunes:subtitle>
+            <content:encoded>David is the sound engineer up at double-wide, a photographer, a musician, and a mic builder. He is busy as shit to say the least. Back in the day he started a label which signed my first band and some odd years later I get to talk to him about how that had such a positive affect on me. He also use to play in a band called [DARYL] which is making a comeback! I&apos;m stoked to say the least. Great dude and this was a blast to have him on.</content:encoded>
+            <itunes:duration>01:24:03</itunes:duration>
+            <itunes:author>Squirreling Podcast</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:keywords>podcast,squirreling,daryl,doublewide</itunes:keywords>
+        </item>
+        <item>
             <title><![CDATA[Episode #21 - Aztec Death]]></title>
             <description><![CDATA[First episode of the new year and I have Aztec Death join me. I have been enjoying their music lately and that is all thanks to JT. These guys were a ton of fun to talk to and are really talented. If you are into dark wave or any other type of wave check these guys out.]]></description>
             <link>http://feeds.soundcloud.com/stream/384677426-squirrelingpodcast-squirreling-podcast-episode-21.mp3</link>
             <guid isPermaLink="false">20180117</guid>
-            <pubDate>Thu, 14 Dec 2017 06:00:00 GMT</pubDate>
+            <pubDate>Wed, 17 Jan 2018 06:00:00 GMT</pubDate>
             <enclosure url="http://feeds.soundcloud.com/stream/384677426-squirrelingpodcast-squirreling-podcast-episode-21.mp3" length="97810015" type="audio/mpeg"/>
             <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
             <itunes:subtitle>First episode of the new year and I have Aztec Death join me. I have been enjoying their music lately and that is all thanks to JT. These guys were a ton of fun to talk to and are really talented. If you are into dark wave or any other type of wave check these guys out.</itunes:subtitle>
