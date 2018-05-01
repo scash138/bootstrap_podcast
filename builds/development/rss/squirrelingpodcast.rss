@@ -4,7 +4,7 @@
         <description><![CDATA[Podcast by Squirreling Podcast]]></description>
         <link>http://squirrelingpodcast.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 06 Mar 2018 03:49:09 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Apr 2018 01:44:49 GMT</lastBuildDate>
         <atom:link href="http://squirrelingpodcast.com/rss/squirrelingpodcast.rss" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 06 Jun 2017 03:54:24 GMT</pubDate>
         <copyright><![CDATA[Copyright © Squirreling Podcast]]></copyright>
@@ -34,6 +34,54 @@
         </itunes:category>
         <itunes:category text="Comedy">
         </itunes:category>
+        <item>
+            <title><![CDATA[Episode #27 - Ricky del Toro]]></title>
+            <description><![CDATA[Mother fucking Ricky del Toro. Dude is so talented and I can not say enough great things about him. Listen to BULLS!]]></description>
+            <link>http://feeds.soundcloud.com/stream/435279498-squirrelingpodcast-squirreling-podcast-episode-27.mp3</link>
+            <guid isPermaLink="false">20180423</guid>
+            <pubDate>Mon, 23 Apr 2018 05:00:00 GMT</pubDate>
+            <enclosure url="http://feeds.soundcloud.com/stream/435279498-squirrelingpodcast-squirreling-podcast-episode-27.mp3" length="46799005" type="audio/mpeg"/>
+            <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
+            <itunes:subtitle>Mother fucking Ricky del Toro. Dude is so talented and I can not say enough great things about him. Listen to BULLS!</itunes:subtitle>
+            <content:encoded>Mother fucking Ricky del Toro. Dude is so talented and I can not say enough great things about him. Listen to BULLS!</content:encoded>
+            <itunes:duration>01:23:19</itunes:duration>
+            <itunes:author>Squirreling Podcast</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:keywords>squirreling,BULLS</itunes:keywords>
+        </item>
+        <item>
+            <title><![CDATA[Episode #26 - Cory Kilduff]]></title>
+            <description><![CDATA[I have known Cory for a long time. I was of fan of his old Austin band The Rise and we ended up playing some shows together. Since then Cory has been a friend of mine. This guy has always been involved in a ton of stuff from graphic art to electronic music. It was a pleasure to have him on.]]></description>
+            <link>http://feeds.soundcloud.com/stream/424500783-squirrelingpodcast-squirreling-podcast-episode-26.mp3</link>
+            <guid isPermaLink="false">20180404</guid>
+            <pubDate>Wed, 04 Apr 2018 05:00:00 GMT</pubDate>
+            <enclosure url="http://feeds.soundcloud.com/stream/424500783-squirrelingpodcast-squirreling-podcast-episode-26.mp3" length="118802605" type="audio/mpeg"/>
+            <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
+            <itunes:subtitle>I have known Cory for a long time. I was of fan of his old Austin band The Rise and we ended up playing some shows together. Since then Cory has been a friend of mine. This guy has always been involved in a ton of stuff from graphic art to electronic music. It was a pleasure to have him on.</itunes:subtitle>
+            <content:encoded>I have known Cory for a long time. I was of fan of his old Austin band The Rise and we ended up playing some shows together. Since then Cory has been a friend of mine. This guy has always been involved in a ton of stuff from graphic art to electronic music. It was a pleasure to have him on.</content:encoded>
+            <itunes:duration>03:11:54</itunes:duration>
+            <itunes:author>Squirreling Podcast</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:keywords>squirreling,ocelotmf,therise</itunes:keywords>
+        </item>
+        <item>
+            <title><![CDATA[Episode #25 - Justin Wilson]]></title>
+            <description><![CDATA[I first became aware of Justin through Red Animal War, but this dude has been in many other bands. He is also a filmmaker that has been involved in documentaries covering Fat Wreck Chords and The Descendents. Justin is a very talented dude and I was honored that he was able to stop by and chat about the tons of things he is involved in.]]></description>
+            <link>http://feeds.soundcloud.com/stream/414599385-squirrelingpodcast-squirreling-podcast-episode-25.mp3</link>
+            <guid isPermaLink="false">20180316</guid>
+            <pubDate>Fri, 16 Mar 2018 05:00:00 GMT</pubDate>
+            <enclosure url="http://feeds.soundcloud.com/stream/414599385-squirrelingpodcast-squirreling-podcast-episode-25.mp3" length="64143027" type="audio/mpeg"/>
+            <itunes:image>http://squirrelingpodcast.com/images/itunes_small.jpg</itunes:image>
+            <itunes:subtitle>I first became aware of Justin through Red Animal War, but this dude has been in many other bands. He is also a filmmaker that has been involved in documentaries covering Fat Wreck Chords and The Descendents. Justin is a very talented dude and I was honored that he was able to stop by and chat about the tons of things he is involved in.</itunes:subtitle>
+            <content:encoded>I first became aware of Justin through Red Animal War, but this dude has been in many other bands. He is also a filmmaker that has been involved in documentaries covering Fat Wreck Chords and The Descendents. Justin is a very talented dude and I was honored that he was able to stop by and chat about the tons of things he is involved in.</content:encoded>
+            <itunes:duration>01:45:15</itunes:duration>
+            <itunes:author>Squirreling Podcast</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:keywords>squirreling,redanimalwar,film</itunes:keywords>
+        </item>
         <item>
             <title><![CDATA[Episode #24 - Jeff and Tom Helland]]></title>
             <description><![CDATA[Jeff and Tom stopped by to talk about Hoaries/Creepeth. I have liked these guys writing styles for quite some time now and it was an honor to have them on. I am really looking forward to more music from both Hoaries and Creepeth.]]></description>
