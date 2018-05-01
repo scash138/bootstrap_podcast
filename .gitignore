@@ -3,3 +3,4 @@ components/audio/*
 components/js/podcasts_test.json
 builds/development/audio/*
 builds/development/js/podcasts_test.json
+rss_new.js
