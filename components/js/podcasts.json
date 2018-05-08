@@ -5,9 +5,9 @@
     "guest": "Ricky del Toro",
     "band": "BULLS",
     "links":"<a href='https://bullsband.bandcamp.com/' target='blank_'>BULLS</a>",
-    "description": "Mother fucking Ricky del Toro. Dude is so talented and I can not say enough great things about him. Listen to BULLS!",
-    "description_raw": "Mother fucking Ricky del Toro. Dude is so talented and I can not say enough great things about him. Listen to BULLS!",
-    "description_subtitle": "Mother fucking Ricky del Toro. Dude is so talented and I can not say enough great things about him. Listen to BULLS!",
+    "description": "Ricky del Toro is so talented and I can not say enough great things about him. Listen to BULLS!",
+    "description_raw": "Ricky del Toro is so talented and I can not say enough great things about him. Listen to BULLS!",
+    "description_subtitle": "Ricky del Toro is so talented and I can not say enough great things about him. Listen to BULLS!",
     "image": "images/guest_images/ricky_sterling.jpg",
     "alt": "ricky_sterling",
     "audiofile": "https://soundcloud.com/squirrelingpodcast/squirreling-podcast-episode-27",
@@ -82,7 +82,7 @@
     "soundcloudfile": "http://feeds.soundcloud.com/stream/402274113-squirrelingpodcast-squirreling-podcast-episode-23.mp3",
     "enclore_length": "139098821",
     "guid": "20180219",
-    "keywords": "podcast,squirreling,whep",
+    "keywords": "squirreling,whep",
     "duration": "01:55:55"
   },{
     "episode": "22",
@@ -90,16 +90,16 @@
     "guest": "David Wilson",
     "band": "Sound Engineer",
     "links":"<a href='http://double-wide.com/' target='blank_'>Double Wide</a>",
-    "description": "David is the sound engineer up at double-wide, a photographer, a musician, and a mic builder. He is busy as shit to say the least. Back in the day he started a label which signed my first band and some odd years later I get to talk to him about how that had such a positive affect on me. He also use to play in a band called [DARYL] which is making a comeback! I'm stoked to say the least. Great dude and this was a blast to have him on.",
-    "description_raw": "David is the sound engineer up at double-wide, a photographer, a musician, and a mic builder. He is busy as shit to say the least. Back in the day he started a label which signed my first band and some odd years later I get to talk to him about how that had such a positive affect on me. He also use to play in a band called DARYL which is making a comeback! Im stoked to say the least. Great dude and this was a blast to have him on.",
-    "description_subtitle": "David is the sound engineer up at double-wide, a photographer, a musician, and a mic builder. He is busy as shit to say the least. Back in the day he started a label which signed my first band and some odd years later I get to talk to him about how that had such a positive affect on me. He also use to play in a band called [DARYL] which is making a comeback! I'm stoked to say the least. Great dude and this was a blast to have him on.",
+    "description": "David is the sound engineer up at double-wide, a photographer, a musician, and a mic builder. He is very busy to say the least. Back in the day he started a label which signed my first band and some odd years later I get to talk to him about how that had such a positive affect on me. He also use to play in a band called [DARYL] which is making a comeback! I'm stoked to say the least. Great dude and this was a blast to have him on.",
+    "description_raw": "David is the sound engineer up at double-wide, a photographer, a musician, and a mic builder. He is very busy to say the least. Back in the day he started a label which signed my first band and some odd years later I get to talk to him about how that had such a positive affect on me. He also use to play in a band called DARYL which is making a comeback! Im stoked to say the least. Great dude and this was a blast to have him on.",
+    "description_subtitle": "David is the sound engineer up at double-wide, a photographer, a musician, and a mic builder. He is very busy to say the least. Back in the day he started a label which signed my first band and some odd years later I get to talk to him about how that had such a positive affect on me. He also use to play in a band called [DARYL] which is making a comeback! I'm stoked to say the least. Great dude and this was a blast to have him on.",
     "image": "images/guest_images/dave_sterling.jpg",
     "alt": "dave_sterling",
     "audiofile": "https://soundcloud.com/squirrelingpodcast/squirreling-podcast-episode-22",
     "soundcloudfile": "http://feeds.soundcloud.com/stream/395112894-squirrelingpodcast-squirreling-podcast-episode-22.mp3",
     "enclore_length": "100867573",
     "guid": "20180206",
-    "keywords": "podcast,squirreling,daryl,doublewide",
+    "keywords": "squirreling,daryl,doublewide",
     "duration": "01:24:03"
   },{
     "episode": "21",
@@ -116,7 +116,7 @@
     "soundcloudfile": "http://feeds.soundcloud.com/stream/384677426-squirrelingpodcast-squirreling-podcast-episode-21.mp3",
     "enclore_length": "97810015",
     "guid": "20180117",
-    "keywords": "podcast,squirreling,aztecdeath",
+    "keywords": "squirreling,aztecdeath",
     "duration": "02:17:02"
   },{
     "episode": "20",
@@ -133,7 +133,7 @@
     "soundcloudfile": "http://feeds.soundcloud.com/stream/369726737-squirrelingpodcast-squirreling-podcast-episode-20.mp3",
     "enclore_length": "51121627",
     "guid": "20171214",
-    "keywords": "podcast,squirreling,cognizant",
+    "keywords": "squirreling,cognizant",
     "duration": "01:19:18"
   },{
     "episode": "19",
@@ -150,7 +150,7 @@
     "soundcloudfile": "http://feeds.soundcloud.com/stream/362790305-squirrelingpodcast-squirreling-podcast-episode-19.mp3",
     "enclore_length": "110177302",
     "guid": "20171129",
-    "keywords": "podcast,squirreling,baringteeth",
+    "keywords": "squirreling,baringteeth",
     "duration": "01:16:31"
   },{
     "episode": "18",
@@ -167,7 +167,7 @@
     "soundcloudfile": "http://feeds.soundcloud.com/stream/356428598-squirrelingpodcast-squirreling-podcast-episode-18.mp3",
     "enclore_length": "106030945",
     "guid": "20171116",
-    "keywords": "podcast,squirreling,BULLS",
+    "keywords": "squirreling,BULLS",
     "duration": "02:31:24"
   },{
     "episode": "17",
@@ -175,16 +175,16 @@
     "guest": "Daron Beck",
     "band": "Pinkish Black",
     "links":"<a href='https://pinkishblack.bandcamp.com/' target='blank_'>Pinkish Black</a>",
-    "description": "Daron stopped by on this episode and this one was a ton of fun. We talked about one of the best places to ever exist, Crystals pizza. I think this dude is so talented and it was a pleasure to be able to chat with him about movies, creepy shit, etc. If you haven't heard Pinkish Black you are missing out!",
-    "description_raw": "Daron stopped by on this episode and this one was a ton of fun. We talked about one of the best places to ever exist, Crystals pizza. I think this dude is so talented and it was a pleasure to be able to chat with him about movies, creepy shit, etc. If you haven't heard Pinkish Black you are missing out!",
-    "description_subtitle": "Daron stopped by on this episode and this one was a ton of fun. We talked about one of the best places to ever exist, Crystals pizza. I think this dude is so talented and it was a pleasure to be able to chat with him about movies, creepy shit, etc. If you haven't heard Pinkish Black you are missing out!",
+    "description": "Daron stopped by on this episode and this one was a ton of fun. We talked about one of the best places to ever exist, Crystals pizza. I think this dude is so talented and it was a pleasure to be able to chat with him about movies, creepy crap, etc. If you haven't heard Pinkish Black you are missing out!",
+    "description_raw": "Daron stopped by on this episode and this one was a ton of fun. We talked about one of the best places to ever exist, Crystals pizza. I think this dude is so talented and it was a pleasure to be able to chat with him about movies, creepy crap, etc. If you haven't heard Pinkish Black you are missing out!",
+    "description_subtitle": "Daron stopped by on this episode and this one was a ton of fun. We talked about one of the best places to ever exist, Crystals pizza. I think this dude is so talented and it was a pleasure to be able to chat with him about movies, creepy crap, etc. If you haven't heard Pinkish Black you are missing out!",
     "image": "images/guest_images/daron_sterling.jpg",
     "alt": "daron_sterling",
     "audiofile": "https://soundcloud.com/squirrelingpodcast/squirreling-podcast-episode-17",
     "soundcloudfile": "http://feeds.soundcloud.com/stream/353185658-squirrelingpodcast-squirreling-podcast-episode-17.mp3",
     "enclore_length": "61313908",
     "guid": "20171110",
-    "keywords": "podcast,squirreling,pinkishblack",
+    "keywords": "squirreling,pinkishblack",
     "duration": "02:03:08"
   },{
     "episode": "16",
@@ -201,7 +201,7 @@
     "soundcloudfile": "http://feeds.soundcloud.com/stream/351491311-squirrelingpodcast-squirreling-podcast-episode-16.mp3",
     "enclore_length": "78749177",
     "guid": "20171105",
-    "keywords": "podcast,squirreling,easyprey",
+    "keywords": "squirreling,easyprey",
     "duration": "2:17:04"
   },{
     "episode": "15",
@@ -218,7 +218,7 @@
     "soundcloudfile": "http://feeds.soundcloud.com/stream/348456850-squirrelingpodcast-squirreling-podcast-episode-15.mp3",
     "enclore_length": "53724324",
     "guid": "20171025",
-    "keywords": "podcast,squirreling,honeylotus",
+    "keywords": "squirreling,honeylotus",
     "duration": "1:34:53"
   },{
     "episode": "14",
@@ -226,16 +226,16 @@
     "guest": "Brian Smith",
     "band": "Wax Ruins",
     "links":"<a href='https://waxruins.bandcamp.com/' target='blank_'>Wax Ruins</a>",
-    "description": "Brian is one dope ass dude. He swung by for this episode and we talked about gear, doom, wax ruins, wood working and fishing. I'm glad a got a chance to sit down with Brian and learn more about him.",
-    "description_raw": "Brian is one dope ass dude. He swung by for this episode and we talked about gear, doom, wax ruins, wood working and fishing. I'm glad a got a chance to sit down with Brian and learn more about him.",
-    "description_subtitle": "Brian is one dope ass dude. He swung by for this episode and we talked about gear, doom, wax ruins, wood working and fishing. I'm glad a got a chance to sit down with Brian and learn more about him.",
+    "description": "Brian is one dope dude. He swung by for this episode and we talked about gear, doom, wax ruins, wood working and fishing. I'm glad a got a chance to sit down with Brian and learn more about him.",
+    "description_raw": "Brian is one dope dude. He swung by for this episode and we talked about gear, doom, wax ruins, wood working and fishing. I'm glad a got a chance to sit down with Brian and learn more about him.",
+    "description_subtitle": "Brian is one dope dude. He swung by for this episode and we talked about gear, doom, wax ruins, wood working and fishing. I'm glad a got a chance to sit down with Brian and learn more about him.",
     "image": "images/guest_images/wax_ruins.jpg",
     "alt": "waxruins_sterling",
     "audiofile": "https://soundcloud.com/squirrelingpodcast/squirreling-podcast-episode-14",
     "soundcloudfile": "http://feeds.soundcloud.com/stream/347708988-squirrelingpodcast-squirreling-podcast-episode-14.mp3",
     "enclore_length": "61791286",
     "guid": "20171020",
-    "keywords": "podcast,squirreling,wax ruins",
+    "keywords": "squirreling,wax ruins",
     "duration": "1:29:10"
   },{
     "episode": "13",
@@ -252,7 +252,7 @@
     "soundcloudfile": "http://feeds.soundcloud.com/stream/346670869-squirrelingpodcast-squirreling-podcast-episode-13.mp3",
     "enclore_length": "44339443",
     "guid": "20171013",
-    "keywords": "podcast,squirreling,ward,music,deathstairs,westwindows",
+    "keywords": "squirreling,ward,deathstairs,westwindows",
     "duration": "1:13:28"
   },{
       "episode": "12",
@@ -269,7 +269,7 @@
       "soundcloudfile": "http://feeds.soundcloud.com/stream/345263176-squirrelingpodcast-squirreling-podcast-episode-12.mp3",
       "enclore_length": "59180156",
       "guid": "20171004",
-      "keywords": "podcast,squirreling,destructiontextI,wardance,author",
+      "keywords": "squirreling,destructiontextI,wardance,author",
       "duration": "1:58:49"
     },{
       "episode": "11",
@@ -286,7 +286,7 @@
       "soundcloudfile": "http://feeds.soundcloud.com/stream/345048308-squirrelingpodcast-squirreling-podcast-episode-11.mp3",
       "enclore_length": "81069089",
       "guid": "20170926",
-      "keywords": "podcast,squirreling,dallas observer,caved mountains",
+      "keywords": "squirreling,dallas observer,caved mountains",
       "duration": "1:55:10"
     },{
       "episode": "10",
@@ -303,7 +303,7 @@
       "soundcloudfile": "http://feeds.soundcloud.com/stream/345047729-squirrelingpodcast-squirreling-podcast-episode-10.mp3",
       "enclore_length": "45154112",
       "guid": "20170906",
-      "keywords": "podcast,squirreling,little beards,nervous curtains",
+      "keywords": "squirreling,little beards,nervous curtains",
       "duration": "1:17:44"
     },{
       "episode": "9",
@@ -320,7 +320,7 @@
       "soundcloudfile": "http://feeds.soundcloud.com/stream/345045904-squirrelingpodcast-squirreling-podcast-episode-9.mp3",
       "enclore_length": "80506463",
       "guid": "20170820",
-      "keywords": "podcast,squirreling,thrift,neon cart",
+      "keywords": "squirreling,thrift,neon cart",
       "duration": "2:11:37"
     },
     {
@@ -338,7 +338,7 @@
       "soundcloudfile": "http://feeds.soundcloud.com/stream/345044547-squirrelingpodcast-squirreling-podcast-episode-8.mp3",
       "enclore_length": "67640893",
       "guid": "20170810",
-      "keywords": "podcast,squirreling,music,stealers",
+      "keywords": "squirreling,stealers",
       "duration": "1:49:30"
     },
     {
@@ -356,7 +356,7 @@
       "soundcloudfile": "http://feeds.soundcloud.com/stream/345040785-squirrelingpodcast-squirreling-podcast-episode-7.mp3",
       "enclore_length": "96004072",
       "guid": "20170803",
-      "keywords": "podcast,squirreling,riley,music,power trip",
+      "keywords": "squirreling,riley,power trip",
       "duration": "2:25:38"
     },
     {
@@ -374,7 +374,7 @@
       "soundcloudfile": "http://feeds.soundcloud.com/stream/345039300-squirrelingpodcast-squirreling-podcast-episode-6.mp3",
       "enclore_length": "79262341",
       "guid": "20170725",
-      "keywords": "podcast,squirreling,rapstine,music,angelus",
+      "keywords": "squirreling,rapstine,angelus",
       "duration": "1:54:06"
     },
     {
@@ -383,16 +383,16 @@
       "guest": "Tyrannosorceress",
       "band": "Tyrannosorceress",
       "links":"<a href='http://tyrannosorceress.com/' target='blank_'>Tyrannosorceress</a>",
-      "description": "<a href='http://tyrannosorceress.com/' target='blank_'>Tyrannosorceress</a> is a Dallas, Tx based black metal band that has recently put out a record entitled 'Shattering Light's Creation'. I've known these guys for a while and not only are they super fun dudes but are also great fucking  musicians. We sat down to talk about life, music, and PINK FLOYD!",
-      "description_raw": "Tyrannosorceress is a Dallas, Tx based black metal band that has recently put out a record entitled 'Shattering Light's Creation'. I've known these guys for a while and not only are they super fun dudes but are also great fucking  musicians. We sat down to talk about life, music, and PINK FLOYD!",
-      "description_subtitle": "Tyrannosorceress is a Dallas, Tx based black metal band that has recently put out a record entitled Shattering Lights Creation. Ive known these guys for a while and not only are they super fun dudes but are also great fucking  musicians. We sat down to talk about life, music, and PINK FLOYD!",
+      "description": "<a href='http://tyrannosorceress.com/' target='blank_'>Tyrannosorceress</a> is a Dallas, Tx based black metal band that has recently put out a record entitled 'Shattering Light's Creation'. I've known these guys for a while and not only are they super fun dudes but are also great musicians. We sat down to talk about life, music, and PINK FLOYD!",
+      "description_raw": "Tyrannosorceress is a Dallas, Tx based black metal band that has recently put out a record entitled 'Shattering Light's Creation'. I've known these guys for a while and not only are they super fun dudes but are also great musicians. We sat down to talk about life, music, and PINK FLOYD!",
+      "description_subtitle": "Tyrannosorceress is a Dallas, Tx based black metal band that has recently put out a record entitled Shattering Lights Creation. Ive known these guys for a while and not only are they super fun dudes but are also great musicians. We sat down to talk about life, music, and PINK FLOYD!",
       "image": "images/guest_images/Tyrannosorceress_Sterling.jpg",
       "alt": "Tyrannosorceress_Sterling",
       "audiofile": "https://soundcloud.com/squirrelingpodcast/squirreling-podcast-episode-5",
       "soundcloudfile": "http://feeds.soundcloud.com/stream/345038415-squirrelingpodcast-squirreling-podcast-episode-5.mp3",
       "enclore_length": "63653761",
       "guid": "20170715",
-      "keywords": "podcast,squirreling,music,tyrannosorceress",
+      "keywords": "squirreling,tyrannosorceress",
       "duration": "1:32:48"
     },
     {
@@ -410,7 +410,7 @@
       "soundcloudfile": "http://feeds.soundcloud.com/stream/345037451-squirrelingpodcast-squirreling-podcast-episode-4.mp3",
       "enclore_length": "49151138",
       "guid": "20170625",
-      "keywords": "podcast,squirreling,ward,music,deathstairs,westwindows",
+      "keywords": "squirreling,ward,deathstairs,westwindows",
       "duration": "1:19:24"
     },
     {
@@ -428,7 +428,7 @@
       "soundcloudfile": "http://feeds.soundcloud.com/stream/345033598-squirrelingpodcast-squirreling-podcast-episode-3.mp3",
       "enclore_length": "86878220",
       "guid": "20170617",
-      "keywords": "podcast,squirreling,somoza,music",
+      "keywords": "squirreling,somoza",
       "duration": "1:44:16"
     },
     {
@@ -446,7 +446,7 @@
       "soundcloudfile": "http://feeds.soundcloud.com/stream/345027081-squirrelingpodcast-squirreling-podcast-episode-2.mp3",
       "enclore_length": "34811296",
       "guid": "20170601",
-      "keywords": "podcast,squirreling,bertholdi,music,cozyhawks",
+      "keywords": "squirreling,bertholdi,cozyhawks",
       "duration": "1:15:12"
     },
     {
@@ -464,7 +464,7 @@
       "soundcloudfile": "http://feeds.soundcloud.com/stream/345022454-squirrelingpodcast-squirreling-podcast-episode-1.mp3",
       "enclore_length": "60063919",
       "guid": "20170526",
-      "keywords": "podcast,squirreling,robisheaux,music",
+      "keywords": "squirreling,robisheaux",
       "duration": "1:51:44"
     }
   ]
