@@ -2,7 +2,7 @@ var RSS = require('rss');
 var fs = require('fs');
 
 var feed = new RSS({
-    feed_url: 'http://squirrelingpodcast.com/rss/squirrelingpodcast.rsss',
+    feed_url: 'http://squirrelingpodcast.com/rss/squirrelingpodcast.rss',
     title: 'Squirreling Podcast',
     pubDate: 'Tue, 06 Jun 2017 03:54:24 +0000',
     lastBuildDate: 'Tue, 06 Jun 2017 03:54:24 +0000',
