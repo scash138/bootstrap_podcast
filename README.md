@@ -4,5 +4,4 @@
 - add json object
 - run npm run rss to build rss feed
 - gulp run to build
-- sync to aws 'aws s3 sync /Users/sterlingcash/Desktop/dev/git/bootstrap_podcast/builds/development/ s3://squirrelingpodcast.com
 - 600 x 600 play image 1500 x 1500 image
